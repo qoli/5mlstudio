@@ -10,7 +10,20 @@
     <link href="https://cdn.bootcss.com/tailwindcss/1.2.0/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css"
       integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animations.css">
     <style>
+      .delayShow {
+        opacity: 0;
+      }
+
+      .flex1 {
+        flex: 1;
+      }
+
+      .flex0 {
+        flex: 0;
+      }
+
       body {
         margin: 0;
         padding: 0;
@@ -23,8 +36,9 @@
       .Navigation {
         height: 67px;
         width: 100%;
-        padding: 15px;
+        padding: 15px 25px;
         display: flex;
+        line-height: 67px;
       }
 
       .Navigation .left,
@@ -53,12 +67,17 @@
         background-color: #b1e8f4;
       }
 
+      .Navigation .Menu {
+        font-family: 'Circe Bold';
+      }
+
       .mainScreen {
         height: calc(100vh - 67px - 52px - 32px);
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
       }
 
       .mainScreen p {
@@ -109,7 +128,7 @@
 
       .Skill dl {
         margin: 0 auto;
-        width: 60vw;
+        width: 80vw;
         text-align: left;
       }
 
@@ -121,10 +140,14 @@
       .Footer {
         font-family: 'Circe Extra Light';
         text-align: center;
-        padding: 80px 0;
+        padding: 0;
         background-color: #141414;
         color: #fff;
         line-height: 2.5em;
+      }
+
+      #footerText {
+        padding: 80px 0;
       }
 
       .Footer h5 {
@@ -158,6 +181,10 @@
         .Skill {
           padding: 320px 0;
         }
+
+        .Skill dl {
+          width: 60vw;
+        }
       }
 
       /* Extra Large (xl) */
@@ -181,14 +208,15 @@
       <div class="left Logo">
         <div>Studio <span>5ml</span></div>
       </div>
-      <div class="right Social">
+      <div class="right">
         <a href="https://www.behance.net/qoli"><i class="fab fa-behance"></i></a>
         <a href="http://dribbble.com/qoli"><i class="fab fa-dribbble"></i></a>
         <a href="http://facebook.com/qoli.wong"><i class="fab fa-facebook"></i></a>
       </div>
     </div>
     <div class="mainScreen">
-      <p>i help my clients to build beautiful design on <b>website</b> or <b>apps</b>. my capabilities range
+      <p id="mainText">i help my clients to build beautiful design on <b>website</b> or <b>apps</b>. my capabilities
+        range
         from
         animation
         to web design, and follow a <b>conversion-focused</b> a design approach.​</p>
@@ -201,15 +229,15 @@
     <div class="Service">
       <div class="inside">
         <div class="grid grid-flow-row md:grid-flow-col xl:grid-flow-col">
-          <div class="service-item">
+          <div class="service-item delayShow" data-delay="1">
             <img src="img/service-01.png" srcset="img/service-01@2x.png 2x,img/service-01@3x.png 3x"
               class="01 UI/UX Design">
           </div>
-          <div class="service-item">
+          <div class="service-item delayShow" data-delay="2">
             <img src="img/service-02.png" srcset="img/service-02@2x.png 2x,img/service-02@3x.png 3x"
               class="02 typography">
           </div>
-          <div class="service-item">
+          <div class="service-item delayShow" data-delay="3">
             <img src="img/service-03.png" srcset="img/service-03@2x.png 2x,img/service-03@3x.png 3x"
               class="03 branding">
           </div>
@@ -220,20 +248,63 @@
 
     <div class="Skill">
       <dl>
-        　<dt>interaction</dt>
-        　<dd>user research / wire framing / prototyping / user testing</dd>
-        　<dt>design</dt>
-        　<dd>adobe suite / sketch / zeplin / lanhuapp</dd>
-        　<dt>coding</dt>
-        　<dd>node.js / vue / react / php / swift / go</dd>
+        　<dt class="delayShow" data-delay="4">interaction</dt>
+        　<dd class="delayShow" data-delay="5">user research / wire framing / prototyping / user testing</dd>
+        　<dt class="delayShow" data-delay="6">design</dt>
+        　<dd class="delayShow" data-delay="7">adobe suite / sketch / zeplin / lanhuapp</dd>
+        　<dt class="delayShow" data-delay="8">coding</dt>
+        　<dd class="delayShow" data-delay="9">node.js / vue / react / php / swift / go</dd>
       </dl>
     </div>
 
     <div class="Footer">
-      <h5>want to work with me?</h5>
-      <p>drop us a line and we'll get back as soon as i can.</p>
-      <p><a class="mailtome button" href="mailto:llqoli@gmail.com">mail to me</a></p>
+      <div id="footerText" style="--blur: 12px; filter: blur(var(--blur));">
+        <h5>want to work with me?</h5>
+        <p>drop us a line and we'll get back as soon as i can.</p>
+        <p><a class="mailtome button" href="mailto:llqoli@gmail.com">mail to me</a></p>
+      </div>
+
     </div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script>
+      function showImages(el) {
+        var windowHeight = jQuery(window).height();
+        $(el).each(function () {
+          var thisPos = $(this).offset().top;
+
+          var topOfWindow = $(window).scrollTop();
+          if (topOfWindow + windowHeight - 200 > thisPos) {
+            var that = this
+
+            setTimeout(function () {
+              $(that).addClass("text-focus-in");
+            }, 380 * $(that).data("delay"));
+          }
+        });
+      }
+
+      // if the image in the window of browser when scrolling the page, show that image
+      $(window).scroll(function () {
+        showImages('.delayShow');
+
+        var blurData = document.body.offsetHeight - (window.innerHeight + window.scrollY)
+        if (blurData <= 200) {
+          var blurValue = blurData / 10
+          // console.log(blurValue, blurData);
+          $("#footerText").attr("style", "--blur: " + blurValue + "px; filter: blur(var(--blur));")
+        }
+
+
+
+
+      });
+
+      $(document).ready(function () {
+        $("#mainText").addClass("text-focus-in");
+      });
+
+    </script>
   </body>
 
 </html>
