@@ -315,29 +315,19 @@
           json: "callback", //传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback) 
           jsonpCallback: "?", //自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名，也可以写"?"，jQuery会自动为你处理数据 
           success: function (json) {
-            console.log(json);
-
-
             $.ajax({
               url: "https://tgbot.lbyczf.com/sendMessage/9qvmshonjxf5csk5",
               type: "GET",
               data: {
-                "text": "[Studio5ml] \n - " + json.query + " \n - " + json.country + " \n - " + json
+                "text": "[Studio 5ml] \n - " + json.query + " \n - " + json.country + " \n - " + json
                   .isp + " \n - " + navigator
                   .appName,
               },
             })
 
           },
-          error: function () {
-            alert('fail');
-          }
+          error: function () {}
         })
-
-        //ip-api.com/json/?lang=zh-CN
-
-
-        // console.log(VIH_HostIP, navigator.appName);
 
       });
 
