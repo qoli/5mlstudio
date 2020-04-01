@@ -1,0 +1,635 @@
+<!doctype html>
+<html class="no-js" lang="zh-cn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="asset/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="asset/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="asset/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="asset/css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="asset/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="asset/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="asset/css/typing.css" rel="stylesheet" type="text/css" media="all" />
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/3.4.0/es5-shim.min.js"></script>
+    <![endif]-->
+    <title>
+    
+    設計師如何用週末把 Swift 從不會到學會并做了一個 App - 樣本工作室
+    
+    </title>
+    
+    
+    <link href="atom.xml" rel="alternate" title="樣本工作室" type="application/atom+xml">
+    <script async src="asset/highlightjs/highlight.pack.js"></script>
+    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script type="text/javascript">
+    function before_search(){
+      var searchVal = 'site:www.5mlstudio.com ' + document.getElementById('search_input').value;
+      document.getElementById('search_q').value = searchVal;
+    return true;
+    }
+    </script>
+    </head>
+    <body class="antialiased hide-extras scroll-assist">
+      <div class="nav-container">
+        <a id="top"></a>
+        <nav class="">
+          <div class="nav-bar">
+            <div class="module left">
+              <a href="index.html">
+                <img src="asset/img/5ML-assets/top-logo.png" height="40px">
+              </a>
+            </div>
+            <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+              <i class="ti-menu"></i>
+            </div>
+            <div class="module-group right">
+              <div class="module left">
+                <ul class="menu">
+                  
+                    <li id=""><a target="_self" href="index.html">Home</a></li>
+                    
+                    <li id=""><a target="_self" href="case.html">Case</a></li>
+                    
+                    <li id=""><a target="_self" href="ServiceItem.html">Service</a></li>
+                    
+                    <li id=""><a target="_self" href="contact.html">Contact</a></li>
+                    
+                    <li id=""><a target="_self" href="Friends.html">Friends</a></li>
+                    
+                    <li id=""><a target="_self" href="about.html">About</a></li>
+                    
+                    <li class="has-dropdown">
+                      <a href="archives.html">Categories</a>
+                      <ul>
+                        
+                          <li>
+                            <a href="Works.html">作品</a>
+                          </li>
+                          
+                          <li>
+                            <a href="News.html">新聞</a>
+                          </li>
+                          
+                          <li>
+                            <a href="Service.html">服務</a>
+                          </li>
+                          
+                          <li>
+                            <a href="Blogs.html">日誌</a>
+                          </li>
+                          
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--end of menu module-->
+                  <div class="module widget-handle search-widget-handle left hide">
+                    <div class="search">
+                      <i class="ti-search"></i>
+                      <span class="title">Search Site</span>
+                    </div>
+                    <div class="function">
+                      <form class="search-form">
+                        <input type="text" placeholder="Search" />
+                      </form>
+                    </div>
+                  </div>
+                  <div class="module widget-handle language left hide">
+                    <ul class="menu">
+                      <li class="has-dropdown">
+                        <a href="#">翻譯</a>
+                        <ul>
+                          <li>
+                            <a href="#">简体中文</a>
+                          </li>
+                          <li>
+                            <a href="#">English</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!--end of module group-->
+              </div>
+            </nav>
+          </div>
+ <section class="page-title page-title-4 bg-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <h2 class="uppercase mb8">設計師如何用週末把 Swift 從不會到學會并做了一個 App</h2>
+        <p class="lead mb0">
+          <ul class="post-meta">
+            <li>
+              <i class="ti-user"></i>
+              <span>Written by
+                <a href="#">Qoli Wong</a>
+              </span>
+            </li>
+            
+              <li>
+                <i class="ti-tag"></i>
+                <span>Posted in
+                  
+                    <a href="Blogs.html">日誌</a>
+                    
+                  </span>
+                </li>
+                
+                <li>
+                  <i class="ti-calendar"></i>
+                  <span>2017/11/14 4:14 上午
+                  </span>
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 頂部標題 -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 mb-xs-24">
+            <div class="post-snippet mb64">
+              <h2 id="toc_0">導言</h2>
+
+<p>起先，本來想用 React Native 做一個微信名片導入到錢包的 App。<br/>
+某日重裝系統后，原來的 React Native 的環境怎麼裝都跑不起來原來寫的 App。<br/>
+因此，我怒而轉向 Swift 陣型。</p>
+
+<p>其實在 React Native 寫 UI 這過程很方便，但是接入 iOS 錢包這個過程，真的看到我一頭暮水。</p>
+
+<h2 id="toc_1">新建項目</h2>
+
+<p>當然打開你的 Xcode，我建立了一個叫 Play 的項目。</p>
+
+<p><img src="media/15106040645526/B5E0AE4C-EFC1-4059-9293-85B0E3FF451B.png" alt="B5E0AE4C-EFC1-4059-9293-85B0E3FF451B"/></p>
+
+<p>選擇「Single View App」，下一步，不使用 Core Data。</p>
+
+<h2 id="toc_2">入門</h2>
+
+<p>我覺得一切的語言，最重要還是莫過於。<br/>
+<code>print(&quot;...&quot;)</code><br/>
+無論你想寫什麼命令，用 Print 一下就正解了。</p>
+
+<p>我在網絡上找了一個庫，叫「PlainPing」<br/>
+<a href="https://github.com/naptics/PlainPing">https://github.com/naptics/PlainPing</a></p>
+
+<pre><code class="language-Swift">PlainPing.ping(&quot;www.google.com&quot;, withTimeout: 1.0, completionBlock: { (timeElapsed:Double?, error:Error?) in
+    if let latency = timeElapsed {
+        self.pingResultLabel.text = &quot;latency (ms): \(latency)&quot;
+    }
+
+    if let error = error {
+        print(&quot;error: \(error.localizedDescription)&quot;)
+    }
+})
+</code></pre>
+
+<p>我突然間開始覺得，Swift 這個語言怎麼做起來跟 node 差不多，想要什麼功能？想網找一個庫回來。</p>
+
+<p>所以，我就這樣子，入門了一個 <strong>Swift 面向 Google</strong> 的開發人員了。</p>
+
+<h2 id="toc_3">開始嘗試寫一個 App</h2>
+
+<p>在開始寫一個 App 之前，我推薦使用 StoryBoard（IB）作為 App 的 UI 編輯工具。<br/>
+<img src="media/15106040645526/170CBBC8-0242-45BE-9F4B-21E4B13574A4.png" alt="170CBBC8-0242-45BE-9F4B-21E4B13574A4"/></p>
+
+<p>IB 的使用規則很簡單，核心就是一個「<strong>約束</strong>」概念。<br/>
+IB 的入門課程我是看了這篇文章入門的（<a href="https://www.appcoda.com.tw/introduction-auto-layout/">Auto Layout 入門教學 | 設計自適應介面 Adaptive UI</a>）。至於大家如何入門，我覺得 Google 多點就可以了。</p>
+
+<p><img src="media/15106040645526/949BA62F-998A-4256-AA45-8DE7EAC7C437.png" alt="949BA62F-998A-4256-AA45-8DE7EAC7"/></p>
+
+<p>我們當然可以先拖動一個空間到我們的 IB，再設定一下水平垂直居中。</p>
+
+<p><img src="media/15106040645526/670AC0AE-3A4B-4210-85EC-0A83E1FB7966.png" alt="670AC0AE-3A4B-4210-85EC-0A83E1FB7966"/></p>
+
+<p>接著，用我們的簡單代碼，來體驗一下第一次使用 IB 并可以運行的愉悅感。<br/>
+<img src="media/15106040645526/05A9BA49-FA96-4367-B72E-826ACD101C19.png" alt="05A9BA49-FA96-4367-B72E-826ACD101"/><br/>
+<img src="media/15106040645526/1704B8D7-A894-4C33-A68F-F43AC5FEA813.png" alt="1704B8D7-A894-4C33-A68F-F43AC5FEA813"/><br/>
+<img src="media/15106040645526/C8F00057-2D02-49BB-811C-79F43F941125.png" alt="C8F00057-2D02-49BB-811C-79F43F941125"/></p>
+
+<p>按照上圖，我們使用在 IB 添加了一個叫 Label 的控件，接著，把界面切換成「Assistant」模式。<br/>
+對著我們的 Label 控件右擊后拖動到左邊，建立一個 Outlet。<br/>
+先這樣。</p>
+
+<hr/>
+
+<h3 id="toc_4">什麼是 Outlet 和 Action 呢？</h3>
+
+<p>其實，這裡就是一個綁定的過程。<br/>
+在 Storyboard，我們做完的界面是不會和代碼綁定的。作為設計師的你，就理解為 Storyboard 就在另一個次元空間吧。<br/>
+我們使用<strong>神之鼠標</strong>把控件給<strong>綁定</strong>到代碼之中，給代碼暴露了一個可以控制某個控件的接口，這裡，稱呼為 <strong>Outlet</strong>。<br/>
+不過這個 Outlet 只能讀取和修改控件的一些樣式，文本內容。</p>
+
+<p>如果遇到按鈕類的控件呢？我們就要用 Action 這個事情了。<br/>
+在使用鼠標把控件拖動到代碼，選擇 Action，就會要求你新建一個 Function 了。這樣，你點一下那個控件的操作，就會由 Function 來完成了。<br/>
+如果，你需要修改一個按鈕的名字，還是需要綁定上 Outlet 才可以。</p>
+
+<p>簡單而言，Outlet 比較類似一個數據上的綁定。然而 Action 就是去觸發 Function。</p>
+
+<hr/>
+
+<p>我們繼續回來，原來的代碼。<br/>
+我們這次，在添加一個 Action，使用剛才的辦法。<br/>
+添加完 Action 后，我們就寫一個事情進來。</p>
+
+<pre><code class="language-Swift">    @IBOutlet weak var PlayLabel: UILabel!
+    @IBAction func doAction(_ sender: UIButton) {
+        PlayLabel.text = &quot;Hey&quot;
+    }
+</code></pre>
+
+<p>做完這些事情，我們就按下 Command（⌘）+ R 來在模擬器運行我們的 App。</p>
+
+<p>我們就可以點一下「Button」，yo，我們的 Label 的文字就變成，Hey 了！</p>
+
+<p><img src="media/15106040645526/Kapture%202017-11-14%20at%203.54.12.gif" alt="Kapture 2017-11-14 at 3.54.12"/></p>
+
+<p>是很簡單的吧？</p>
+
+<p>我們的入門課程就如此結束了。</p>
+
+<h2 id="toc_5">設計師如何開發一個 Swift App？</h2>
+
+<p>首先，我們要做一個設計圖。</p>
+
+<p><img src="media/15106040645526/398FC426-CEA7-4D74-A626-C1B4FA37EA9A.png" alt="398FC426-CEA7-4D74-A626-C1B4FA37EA9A"/></p>
+
+<p>接著，我們把設計圖的樣子，用 Xcode 的 IB 佈局出來。</p>
+
+<p><img src="media/15106040645526/DE258572-94E0-4A36-A4FE-4167D817E85B.png" alt="DE258572-94E0-4A36-A4FE-4167D817E85B"/></p>
+
+<p>放心，在 IB 的樣式不能完全反映 App 的最終樣子。<br/>
+因為有部分樣式，我們只能使用代碼添加，不能使用 IB 完成。</p>
+
+<p>接著，引入一大堆的庫和寫一大堆的代碼。</p>
+
+<p><img src="media/15106040645526/FA51DDAB-CE20-4D90-93C2-8F448B5FA7B7.png" alt="FA51DDAB-CE20-4D90-93C2-8F448B5FA7B7"/></p>
+
+<hr/>
+
+<h3 id="toc_6">難點﹣UITableView</h3>
+
+<p>UITable 是整個佈局之中最難的第一個地方。<br/>
+我從 下午 7 點折騰到凌晨 2 點才搞定這個 UITableView。<br/>
+這裡分享兩個視頻，我是後期看了這兩個視頻才知道怎麼折騰。<br/>
+<a href="https://www.youtube.com/watch?v=B2q7t09L2l8">Auto Resizing Table View Cell height in swift 3 and Xcode - YouTube</a><br/>
+<a href="https://www.youtube.com/watch?v=6bQYd9N6g6A">https://www.youtube.com/watch?v=6bQYd9N6g6A</a></p>
+
+<hr/>
+
+<p>最後，在真機運行 App 吧！</p>
+
+<p><img src="media/15106040645526/43365B28-AA81-4307-BA88-73DAB8717054.png" alt="43365B28-AA81-4307-BA88-73DAB8717054"/><br/>
+<img src="media/15106040645526/91DF1F52-D3E6-4ECB-B07E-C9E592C728E7.png" alt="91DF1F52-D3E6-4ECB-B07E-C9E592C728E7"/></p>
+
+<h2 id="toc_7">GitHub 項目位置</h2>
+
+<p><a href="https://github.com/qoli/dailyVerse">https://github.com/qoli/dailyVerse</a></p>
+
+<p>項目應該快可以上架，我週末買了 Apple 開發者會員，可惜都週一過去了，還沒顯示通過會員。<br/>
+這種 App 寫完了，但是開發者還沒下來真奇怪。哈哈哈</p>
+
+<p>大家也可以透過這裡查看操作視頻：<br/>
+<a href="https://www.youtube.com/watch?v=Y4xG7LScOT8&amp;feature=youtu.be">https://www.youtube.com/watch?v=Y4xG7LScOT8&amp;feature=youtu.be</a></p>
+
+            </div>
+            <!--end of post snippet-->
+            <hr>
+            <div class="row">
+              <div class="col-md-6">
+                <p class="text-left" style="padding:15px 0px;">
+                  
+                    <a href="15161112284329.html"
+                    title="Previous Post: 這會是現在最合適 iPhone X 設計的壁紙 App">&laquo; 這會是現在最合適 iPhone X 設計的壁紙 App</a>
+                    
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <p class="text-right" style="padding:15px 0px;">
+                    
+                      <a  href="14994443370819.html"
+                      title="Next Post: 以顏值取代實用性">以顏值取代實用性 &raquo;</a>
+                      
+                    </p>
+                  </div>
+                </div>
+                <div id="disqus_thread"></div>
+                <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = '//yang-ben-gong-zuo-shi.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+              </div>
+              <!--end of nine col-->
+
+              <div class="col-md-3 hidden-sm">
+                <div class="widget hide">
+                  <h6 class="title">Search</h6>
+                  <hr>
+                  <form>
+                    <input class="mb0" type="text" placeholder="Type Here" />
+                  </form>
+                </div>
+                <!--end of widget-->
+                <div class="widget">
+                  <h6 class="title">Recent Posts</h6>
+                  <hr>
+                  <ul class="link-list recent-posts">
+                    
+                      
+                        <li class="post">
+                          <a href="15380285776729.html">2018 版本的 CV</a>
+                        </li>
+                        
+                        
+                      
+                        <li class="post">
+                          <a href="15161112284329.html">這會是現在最合適 iPhone X 設計的壁紙 App</a>
+                        </li>
+                        
+                        
+                      
+                        <li class="post">
+                          <a href="15106040645526.html">設計師如何用週末把 Swift 從不會到學會并做了一個 App</a>
+                        </li>
+                        
+                        
+                      
+                        <li class="post">
+                          <a href="14994443370819.html">以顏值取代實用性</a>
+                        </li>
+                        
+                        
+                      
+                        <li class="post">
+                          <a href="14984836760698.html">為你的 iOS 家庭搭建最強的 Homebridge 支援﹣MiHomePlus 介紹</a>
+                        </li>
+                        
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      </ul>
+                    </div>
+                    <!--end of widget-->
+                  </div>
+                  <!--end of sidebar-->
+                </div>
+                <!--end of container row-->
+              </div>
+              <!--end of container-->
+            </section>
+  <footer class="footer-1 bg-dark">
+  <div class="container">
+    <div class="row hidden-sm hidden-md hidden-lg text-center">
+      <img src="asset/img/5ML-assets/footer.png" width="200px" class="mb24">
+      <div class="col-sm-12">&copy; Copyright 2016 - 5ml Studio</div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb64 hidden-xs ">
+        <img src="asset/img/5ML-assets/footer.png" width="200px">
+      </div>
+      <div class="col-md-3 col-sm-6 hidden-xs">
+        <div class="widget">
+          <h6 class="title">Categories</h6>
+          <hr>
+          <ul class="link-list">
+            
+            <li class="post">
+              <a href="Works.html"><strong>作品</strong></a><br>
+            </li>
+            
+            <li class="post">
+              <a href="News.html"><strong>新聞</strong></a><br>
+            </li>
+            
+            <li class="post">
+              <a href="Service.html"><strong>服務</strong></a><br>
+            </li>
+            
+            <li class="post">
+              <a href="Blogs.html"><strong>日誌</strong></a><br>
+            </li>
+            
+          </ul>
+        </div>
+        <!--end of widget-->
+      </div>
+      <div class="col-md-3 col-sm-6 hidden-xs">
+        <div class="widget">
+          <h6 class="title">Recent Posts</h6>
+          <hr>
+          <ul class="link-list recent-posts">
+            
+            
+            <li class="post">
+              <a href="15380285776729.html">2018 版本的 CV</a>
+            </li>
+            
+            
+            
+            <li class="post">
+              <a href="15161112284329.html">這會是現在最合適 iPhone X 設計的壁紙 App</a>
+            </li>
+            
+            
+            
+            <li class="post">
+              <a href="15106040645526.html">設計師如何用週末把 Swift 從不會到學會并做了一個 App</a>
+            </li>
+            
+            
+            
+            <li class="post">
+              <a href="14994443370819.html">以顏值取代實用性</a>
+            </li>
+            
+            
+            
+            <li class="post">
+              <a href="14984836760698.html">為你的 iOS 家庭搭建最強的 Homebridge 支援﹣MiHomePlus 介紹</a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </ul>
+        </div>
+        <!--end of widget-->
+      </div>
+      <div class="col-md-3 col-sm-6 hidden-xs">
+        <div class="widget">
+          <h6 class="title">Instagram</h6>
+          <hr>
+          <div class="instafeed" data-user-name="qoli">
+            <ul></ul>
+          </div>
+        </div>
+        <!--end of widget-->
+      </div>
+    </div>
+    <!--end of row-->
+    <div class="row  hidden-xs">
+      <div class="col-sm-12">
+        <span class="sub">&copy; Copyright 2014 ~ 2020 - 5ml Studio - 粤ICP备20007308号</span>
+      </div>
+      <div class="col-sm-12 text-right">
+        <ul class="list-inline social-list">
+          <li>
+            <a href="https://twitter.com/llqoli">
+              <i class="ti-twitter-alt"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/qoli">
+              <i class="ti-dribbble"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/qoli">
+              <i class="ti-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://instagram.com/qoli">
+              <i class="ti-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://zhuanlan.zhihu.com/5mlstudio">
+              <i class="ti-link"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--end of container-->
+  <a class="btn btn-sm fade-half back-to-top inner-link hidden-xs" href="#top">Top</a>
+</footer>
+</div>
+<script src="asset/js/jquery.min.js?4"></script>
+<script src="asset/js/bootstrap.min.js"></script>
+<script src="asset/js/flickr.js"></script>
+<script src="asset/js/flexslider.min.js"></script>
+<script src="asset/js/lightbox.min.js"></script>
+<script src="asset/js/masonry.min.js"></script>
+<script src="asset/js/twitterfetcher.min.js"></script>
+<script src="asset/js/spectragram.min.js"></script>
+<script src="asset/js/ytplayer.min.js"></script>
+<script src="asset/js/countdown.min.js"></script>
+<script src="asset/js/smooth-scroll.min.js?8"></script>
+<script src="asset/js/parallax.js"></script>
+<script src="asset/js/scripts.js?7"></script>
+
+
+
+
+<script src="asset/js/foundation.min.js"></script>
+<script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
+<script type='text/javascript'>
+    (function(m, ei, q, i, a, j, s) {
+        m[i] = m[i] || function() {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        j = ei.createElement(q),
+            s = ei.getElementsByTagName(q)[0];
+        j.async = true;
+        j.charset = 'UTF-8';
+        j.src = '//static.meiqia.com/dist/meiqia.js';
+        s.parentNode.insertBefore(j, s);
+    })(window, document, 'script', '_MEIQIA');
+    _MEIQIA('entId', 46610);
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-19058536-4', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+
+</html>

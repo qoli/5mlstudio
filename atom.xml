@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[樣本工作室]]></title>
+  <link href="http://www.5mlstudio.com/atom.xml" rel="self"/>
+  <link href="http://www.5mlstudio.com/"/>
+  <updated>2020-04-01T19:35:08+08:00</updated>
+  <id>http://www.5mlstudio.com/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[2018 版本的 CV]]></title>
+    <link href="http://www.5mlstudio.com/15380285776729.html"/>
+    <updated>2018-09-27T14:09:37+08:00</updated>
+    <id>http://www.5mlstudio.com/15380285776729.html</id>
+    <content type="html"><![CDATA[
+<p>最近把 CV 更新了一下。<br/>
+<img src="media/15380285776729/Qoli%20CV%202018%201.png" alt="Qoli CV 2018 1"/></p>
+
+<p><img src="media/15380285776729/Qoli%20CV%202018%202.png" alt="Qoli CV 2018 2"/><br/>
+<img src="media/15380285776729/Qoli%20CV%202018%203.png" alt="Qoli CV 2018 3"/><br/>
+<img src="media/15380285776729/Qoli%20CV%202018%204.png" alt="Qoli CV 2018 4"/><br/>
+<img src="media/15380285776729/Qoli%20CV%202018%205.png" alt="Qoli CV 2018 5"/></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[這會是現在最合適 iPhone X 設計的壁紙 App]]></title>
+    <link href="http://www.5mlstudio.com/15161112284329.html"/>
+    <updated>2018-01-16T22:00:28+08:00</updated>
+    <id>http://www.5mlstudio.com/15161112284329.html</id>
+    <content type="html"><![CDATA[
+<p>iPhone X 採用了 OLED 屏幕，如果使用全黑的壁紙將會更省電。<br/>
+如果不喜歡全黑的壁紙，採用基於綠色系列的壁紙也能減少壽命損耗。但是千萬不要使用太多藍色的壁紙，藍色顯示單元格壽命比較短，所以不要用太多哦。</p>
+
+<p>因此，我走上了一條尋覓壁紙的道路了。但是在尋覓大約 8 個壁紙 App 之後，我選擇了另一條路。</p>
+
+<p><img src="media/15161112284329/top.png" alt="top"/></p>
+
+<h2 id="toc_0">設計和開發</h2>
+
+<p><img src="media/15161112284329/screen1.png" alt="screen1"/></p>
+
+<p><img src="media/15161112284329/screen2.png" alt="screen2"/></p>
+
+<p>當然，我們無法逃脫先用 Sketch 確定大概的視覺風格，再開工開發的固定流程。<br/>
+這是我第二次用 Swift 寫 App 了，所以用起來就感覺適應很多。<br/>
+而且最大的好處是，Swift 怎麼寫都有代碼提示，不像以前在寫 JavaScript 一樣，代碼都是依賴腦子記憶。</p>
+
+<p>再搭配上 Fastlane 發佈，我已經忘記了怎麼透過 xcode 發佈 App 了。</p>
+
+<p><img src="media/15161112284329/screen3.png" alt="screen3"/><br/>
+<img src="media/15161112284329/screen4.png" alt="screen4"/></p>
+
+<h2 id="toc_1">可能是最合適 iPhone X 的壁紙 App ﹣ Cube X</h2>
+
+<p><img src="media/15161112284329/IMG_DFE16784EFCD-1.jpeg" alt="IMG_DFE16784EFCD-1"/></p>
+
+<p>Cube X 是我在體驗了一圈壁紙 App 之後，我發現，根本沒有真正合適手機壁紙的 App。每一個壁紙 App 或多或少都有如下這些缺點：<br/>
+* 分辨率不滿足要求；<br/>
+* 奇怪的裁剪方案；<br/>
+* 預覽顯示並非合適手機屏幕尺寸。</p>
+
+<p>我們要選擇一張壁紙，首先需要一點就是，這個壁紙是基於當前手機比例進行預覽的。而不是一個一個正方形格子……這樣無法選擇啊！</p>
+
+<p><img src="media/15161112284329/images1.png" alt="images1"/></p>
+
+<p><img src="media/15161112284329/images2.png" alt="images2"/></p>
+
+<p>因此 Cube X 使用了獨特的 1:2 比例，以滿足 iPhone X 手機的預覽尺寸。讓每個用戶在瀏覽畫廊的時候，就可以做出一種選擇，我到底要不要用這張壁紙。</p>
+
+<p><img src="media/15161112284329/images3.png" alt="images3"/><br/>
+<img src="media/15161112284329/IMG_EFAF1519944E-1.jpeg" alt="IMG_EFAF1519944E-1"/><br/>
+<img src="media/15161112284329/images4.png" alt="images4"/></p>
+
+<p>不但如此，Cube X 更加關心你怎麼預覽這張壁紙。在 Cube X，一共有 3 種屏幕預覽模式。還有視覺效果的預覽，以滿足你會在壁紙設定過程中會設定為「視差效果」。</p>
+
+<p>同時在壁紙屬性面板還提供了基於 unsplash.com 的點讚接口。不能忘記了，Cube X 最為重要的功能就是，提供 RAW 原片下載。一張 10m 的壁紙的威力，不是一張 300kb 的壁紙可以比較的。</p>
+
+<p><img src="media/15161112284329/images5.png" alt="images5"/></p>
+
+<p>基於 unsplash.com api 和自定義接口的 stocksnap.io 兩款 CC0 的素材圖庫，無論你是搜索圖片做 PPT 還是搜索圖片來做壁紙，甚至於搜索圖片來打印傳遞，通通沒問題！</p>
+
+<h2 id="toc_2">這麼完美的壁紙 App，就要現在下載。</h2>
+
+<h5 id="toc_3">優點</h5>
+
+<ul>
+<li>符合手機顯示尺寸的預覽比例</li>
+<li>RAW 原片下載</li>
+<li>多引擎搜索接口</li>
+</ul>
+
+<h5 id="toc_4">缺點</h5>
+
+<ul>
+<li>unsplash.com API 速度偏慢</li>
+<li>偶然的可能錯誤</li>
+<li>依然正在更新中……</li>
+</ul>
+
+<p><img src="media/15161112284329/images6.png" alt="images6"/></p>
+
+<h3 id="toc_5">App Store 下載</h3>
+
+<p><a href="https://itunes.apple.com/us/app/cube-x/id1332087138?l=zh&amp;ls=1&amp;mt=8">https://itunes.apple.com/us/app/cube-x/id1332087138?l=zh&amp;ls=1&amp;mt=8</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[設計師如何用週末把 Swift 從不會到學會并做了一個 App]]></title>
+    <link href="http://www.5mlstudio.com/15106040645526.html"/>
+    <updated>2017-11-14T04:14:24+08:00</updated>
+    <id>http://www.5mlstudio.com/15106040645526.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">導言</h2>
+
+<p>起先，本來想用 React Native 做一個微信名片導入到錢包的 App。<br/>
+某日重裝系統后，原來的 React Native 的環境怎麼裝都跑不起來原來寫的 App。<br/>
+因此，我怒而轉向 Swift 陣型。</p>
+
+<p>其實在 React Native 寫 UI 這過程很方便，但是接入 iOS 錢包這個過程，真的看到我一頭暮水。</p>
+
+<h2 id="toc_1">新建項目</h2>
+
+<p>當然打開你的 Xcode，我建立了一個叫 Play 的項目。</p>
+
+<p><img src="media/15106040645526/B5E0AE4C-EFC1-4059-9293-85B0E3FF451B.png" alt="B5E0AE4C-EFC1-4059-9293-85B0E3FF451B"/></p>
+
+<p>選擇「Single View App」，下一步，不使用 Core Data。</p>
+
+<h2 id="toc_2">入門</h2>
+
+<p>我覺得一切的語言，最重要還是莫過於。<br/>
+<code>print(&quot;...&quot;)</code><br/>
+無論你想寫什麼命令，用 Print 一下就正解了。</p>
+
+<p>我在網絡上找了一個庫，叫「PlainPing」<br/>
+<a href="https://github.com/naptics/PlainPing">https://github.com/naptics/PlainPing</a></p>
+
+<pre><code class="language-Swift">PlainPing.ping(&quot;www.google.com&quot;, withTimeout: 1.0, completionBlock: { (timeElapsed:Double?, error:Error?) in
+    if let latency = timeElapsed {
+        self.pingResultLabel.text = &quot;latency (ms): \(latency)&quot;
+    }
+
+    if let error = error {
+        print(&quot;error: \(error.localizedDescription)&quot;)
+    }
+})
+</code></pre>
+
+<p>我突然間開始覺得，Swift 這個語言怎麼做起來跟 node 差不多，想要什麼功能？想網找一個庫回來。</p>
+
+<p>所以，我就這樣子，入門了一個 <strong>Swift 面向 Google</strong> 的開發人員了。</p>
+
+<h2 id="toc_3">開始嘗試寫一個 App</h2>
+
+<p>在開始寫一個 App 之前，我推薦使用 StoryBoard（IB）作為 App 的 UI 編輯工具。<br/>
+<img src="media/15106040645526/170CBBC8-0242-45BE-9F4B-21E4B13574A4.png" alt="170CBBC8-0242-45BE-9F4B-21E4B13574A4"/></p>
+
+<p>IB 的使用規則很簡單，核心就是一個「<strong>約束</strong>」概念。<br/>
+IB 的入門課程我是看了這篇文章入門的（<a href="https://www.appcoda.com.tw/introduction-auto-layout/">Auto Layout 入門教學 | 設計自適應介面 Adaptive UI</a>）。至於大家如何入門，我覺得 Google 多點就可以了。</p>
+
+<p><img src="media/15106040645526/949BA62F-998A-4256-AA45-8DE7EAC7C437.png" alt="949BA62F-998A-4256-AA45-8DE7EAC7"/></p>
+
+<p>我們當然可以先拖動一個空間到我們的 IB，再設定一下水平垂直居中。</p>
+
+<p><img src="media/15106040645526/670AC0AE-3A4B-4210-85EC-0A83E1FB7966.png" alt="670AC0AE-3A4B-4210-85EC-0A83E1FB7966"/></p>
+
+<p>接著，用我們的簡單代碼，來體驗一下第一次使用 IB 并可以運行的愉悅感。<br/>
+<img src="media/15106040645526/05A9BA49-FA96-4367-B72E-826ACD101C19.png" alt="05A9BA49-FA96-4367-B72E-826ACD101"/><br/>
+<img src="media/15106040645526/1704B8D7-A894-4C33-A68F-F43AC5FEA813.png" alt="1704B8D7-A894-4C33-A68F-F43AC5FEA813"/><br/>
+<img src="media/15106040645526/C8F00057-2D02-49BB-811C-79F43F941125.png" alt="C8F00057-2D02-49BB-811C-79F43F941125"/></p>
+
+<p>按照上圖，我們使用在 IB 添加了一個叫 Label 的控件，接著，把界面切換成「Assistant」模式。<br/>
+對著我們的 Label 控件右擊后拖動到左邊，建立一個 Outlet。<br/>
+先這樣。</p>
+
+<hr/>
+
+<h3 id="toc_4">什麼是 Outlet 和 Action 呢？</h3>
+
+<p>其實，這裡就是一個綁定的過程。<br/>
+在 Storyboard，我們做完的界面是不會和代碼綁定的。作為設計師的你，就理解為 Storyboard 就在另一個次元空間吧。<br/>
+我們使用<strong>神之鼠標</strong>把控件給<strong>綁定</strong>到代碼之中，給代碼暴露了一個可以控制某個控件的接口，這裡，稱呼為 <strong>Outlet</strong>。<br/>
+不過這個 Outlet 只能讀取和修改控件的一些樣式，文本內容。</p>
+
+<p>如果遇到按鈕類的控件呢？我們就要用 Action 這個事情了。<br/>
+在使用鼠標把控件拖動到代碼，選擇 Action，就會要求你新建一個 Function 了。這樣，你點一下那個控件的操作，就會由 Function 來完成了。<br/>
+如果，你需要修改一個按鈕的名字，還是需要綁定上 Outlet 才可以。</p>
+
+<p>簡單而言，Outlet 比較類似一個數據上的綁定。然而 Action 就是去觸發 Function。</p>
+
+<hr/>
+
+<p>我們繼續回來，原來的代碼。<br/>
+我們這次，在添加一個 Action，使用剛才的辦法。<br/>
+添加完 Action 后，我們就寫一個事情進來。</p>
+
+<pre><code class="language-Swift">    @IBOutlet weak var PlayLabel: UILabel!
+    @IBAction func doAction(_ sender: UIButton) {
+        PlayLabel.text = &quot;Hey&quot;
+    }
+</code></pre>
+
+<p>做完這些事情，我們就按下 Command（⌘）+ R 來在模擬器運行我們的 App。</p>
+
+<p>我們就可以點一下「Button」，yo，我們的 Label 的文字就變成，Hey 了！</p>
+
+<p><img src="media/15106040645526/Kapture%202017-11-14%20at%203.54.12.gif" alt="Kapture 2017-11-14 at 3.54.12"/></p>
+
+<p>是很簡單的吧？</p>
+
+<p>我們的入門課程就如此結束了。</p>
+
+<h2 id="toc_5">設計師如何開發一個 Swift App？</h2>
+
+<p>首先，我們要做一個設計圖。</p>
+
+<p><img src="media/15106040645526/398FC426-CEA7-4D74-A626-C1B4FA37EA9A.png" alt="398FC426-CEA7-4D74-A626-C1B4FA37EA9A"/></p>
+
+<p>接著，我們把設計圖的樣子，用 Xcode 的 IB 佈局出來。</p>
+
+<p><img src="media/15106040645526/DE258572-94E0-4A36-A4FE-4167D817E85B.png" alt="DE258572-94E0-4A36-A4FE-4167D817E85B"/></p>
+
+<p>放心，在 IB 的樣式不能完全反映 App 的最終樣子。<br/>
+因為有部分樣式，我們只能使用代碼添加，不能使用 IB 完成。</p>
+
+<p>接著，引入一大堆的庫和寫一大堆的代碼。</p>
+
+<p><img src="media/15106040645526/FA51DDAB-CE20-4D90-93C2-8F448B5FA7B7.png" alt="FA51DDAB-CE20-4D90-93C2-8F448B5FA7B7"/></p>
+
+<hr/>
+
+<h3 id="toc_6">難點﹣UITableView</h3>
+
+<p>UITable 是整個佈局之中最難的第一個地方。<br/>
+我從 下午 7 點折騰到凌晨 2 點才搞定這個 UITableView。<br/>
+這裡分享兩個視頻，我是後期看了這兩個視頻才知道怎麼折騰。<br/>
+<a href="https://www.youtube.com/watch?v=B2q7t09L2l8">Auto Resizing Table View Cell height in swift 3 and Xcode - YouTube</a><br/>
+<a href="https://www.youtube.com/watch?v=6bQYd9N6g6A">https://www.youtube.com/watch?v=6bQYd9N6g6A</a></p>
+
+<hr/>
+
+<p>最後，在真機運行 App 吧！</p>
+
+<p><img src="media/15106040645526/43365B28-AA81-4307-BA88-73DAB8717054.png" alt="43365B28-AA81-4307-BA88-73DAB8717054"/><br/>
+<img src="media/15106040645526/91DF1F52-D3E6-4ECB-B07E-C9E592C728E7.png" alt="91DF1F52-D3E6-4ECB-B07E-C9E592C728E7"/></p>
+
+<h2 id="toc_7">GitHub 項目位置</h2>
+
+<p><a href="https://github.com/qoli/dailyVerse">https://github.com/qoli/dailyVerse</a></p>
+
+<p>項目應該快可以上架，我週末買了 Apple 開發者會員，可惜都週一過去了，還沒顯示通過會員。<br/>
+這種 App 寫完了，但是開發者還沒下來真奇怪。哈哈哈</p>
+
+<p>大家也可以透過這裡查看操作視頻：<br/>
+<a href="https://www.youtube.com/watch?v=Y4xG7LScOT8&amp;feature=youtu.be">https://www.youtube.com/watch?v=Y4xG7LScOT8&amp;feature=youtu.be</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[以顏值取代實用性]]></title>
+    <link href="http://www.5mlstudio.com/14994443370819.html"/>
+    <updated>2017-07-08T00:18:57+08:00</updated>
+    <id>http://www.5mlstudio.com/14994443370819.html</id>
+    <content type="html"><![CDATA[
+<p><img src="media/14994443370819/IMG_5205.jpg" alt="IMG_5205"/></p>
+
+<p>最近手滑入了一個藍牙機械鍵盤。<br/>
+本來毫無打算要購買任何鍵盤的，因為原來的 Mac 鍵盤就很好用了。<br/>
+可是，有些時候，如果一個物件的「顏值」足夠高時候，就難以抵擋了。所以，我還是手滑入手了這個鍵盤。</p>
+
+<h2 id="toc_0">第一次用機械鍵盤</h2>
+
+<p>我之前沒有用過機械鍵盤，可能在學生年代時候有吧。這次入手的鍵盤是一個青軸鍵盤，其實，我壓根就不關心它是是不是機械鍵盤。我只關心，好不好看而已。</p>
+
+<h3 id="toc_1">開箱</h3>
+
+<p>快遞在我意料之外的快，不到一個兩天，快遞就送來了。<br/>
+我在北京大雨回家之後，打開快遞被驚訝到了，為何盒子裡面有光？！</p>
+
+<p><img src="media/14994443370819/IMG_5398.jpg" alt="IMG_5398"/></p>
+
+<p><img src="media/14994443370819/IMG_5399.jpg" alt="IMG_5399"/></p>
+
+<p>竟然，鍵盤送過來時候，就是出於「開啟狀態」了。</p>
+
+<p>急不及待地配對好，第一次上手覺得圓形鍵帽沒有那麼難適應，比較難適應的是，我總會按 2 按成 1。因為它的鍵盤把數字鍵那一排縮進了半個按鍵，所以和以前的習慣有所不同。</p>
+
+<h3 id="toc_2">使用</h3>
+
+<p>經過了一天的使用。覺得青軸鍵盤的確比 Mac 鍵盤要浪費力氣，打幾百字就會開始手累。但是在樣子好看的情況下，我覺得這些還能接受。畢竟打字速度和手累不累應該還是多多適應之後就好很多了。如果在不使用數字鍵的情況下，基本上打字速度是沒有受到影響的。</p>
+
+<p>只是每次在使用數字鍵時候，我都需要低頭看一下鍵盤，以確保按鍵正確。突然有一種回到小學時候看鍵盤打字的感覺哦。</p>
+
+<p>而且這個鍵盤在定位 command ＋ tab 時候，會比 Mac 鍵盤還要準。不過在定位上下左右時候，左右沒問題，上經常不小心就會按了右 Shift。</p>
+
+<p><img src="media/14994443370819/IMG_5406.jpg" alt="IMG_5406"/></p>
+
+<p><img src="media/14994443370819/IMG_5411.jpg" alt="IMG_5411"/></p>
+
+<p><img src="media/14994443370819/IMG_5430.jpg" alt="IMG_5430"/></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[為你的 iOS 家庭搭建最強的 Homebridge 支援﹣MiHomePlus 介紹]]></title>
+    <link href="http://www.5mlstudio.com/14984836760698.html"/>
+    <updated>2017-06-26T21:27:56+08:00</updated>
+    <id>http://www.5mlstudio.com/14984836760698.html</id>
+    <content type="html"><![CDATA[
+<p>MiHomePlus 是我為 iOS 家庭編寫的 Android App，主要的作用就是作為 iOS 家庭的操作代理。</p>
+
+<p>MiHomePlus 的<strong>工作原理</strong>是這樣的：<br/>
+1. MiHomePlus 調用 Android 「無障礙」特性，監視和控制米家 App。<br/>
+2. 當無障礙功能觸發「TYPE_WINDOW_CONTENT_CHANGED」事件時候，與另一項目 MiPlusServer 通信，把監視的設備狀態同步給 MiPlusServer。<br/>
+3. MIPlusServer 從 Homebridge 收取到操作通知時候，基於 Socket.io 通知 MiHomePlus 操作米家 App 去切換設備狀態。<br/>
+4. 在 Homebridge 基於 Switcheroo 插件提供的操作接口。<br/>
+5. MiPlusServer 是 Web 接口。</p>
+
+<h2 id="toc_0">關聯項目</h2>
+
+<h5 id="toc_1">MiHomePlus</h5>
+
+<p><a href="https://github.com/qoli/MiHomePlus">https://github.com/qoli/MiHomePlus</a></p>
+
+<h5 id="toc_2">MiPlusServer</h5>
+
+<p><a href="https://github.com/qoli/MiPlusServer">https://github.com/qoli/MiPlusServer</a></p>
+
+<h2 id="toc_3">準備設備</h2>
+
+<ol>
+<li>Pi 一枚。</li>
+<li>閒置 Android 手機一個。</li>
+</ol>
+
+<p>Pi 我用了 NanoPi，59 元那個 256MB 的版本就足夠了。然而 Android 手機最低要求是 4.2.1 版本的，基於 API 19，因為我是基於這個版本做的開發。</p>
+
+<h2 id="toc_4">初始化 NanoPi 環境</h2>
+
+<p>我們需要在 NanoPi 搭建 Homebridge 和安裝 MIPlusServer。</p>
+
+<h3 id="toc_5">安裝 Homebridge</h3>
+
+<p>參考這幾遍文章完成 Homebridge 的安裝。<br/>
+1. <a href="http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO/zh#.E5.87.86.E5.A4.87.E5.B7.A5.E4.BD.9C">http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO/zh#.E5.87.86.E5.A4.87.E5.B7.A5.E4.BD.9C</a><br/>
+2. <a href="http://blog.yongliang.info/2017/0101_play_with_nanopi/">http://blog.yongliang.info/2017/0101_play_with_nanopi/</a><br/>
+3. <a href="http://djzhang.com/nozuonofun/realize-homekit-with-raspberry-pi-and-xiaomi-smart-devices/">http://djzhang.com/nozuonofun/realize-homekit-with-raspberry-pi-and-xiaomi-smart-devices/</a></p>
+
+<p>建議安裝的 Homebridge 插件：<br/>
+1. homebridge-yeelight 控制燈<br/>
+2. homebridge-mi-aqara 改良版的 aqara 網關<br/>
+3. <strong>homebridge-switcheroo</strong> MIPlusServer 基於這個插件和 Homebridge 通信的。</p>
+
+<p><strong>homebridge-miio</strong> 這個插件聽說可以控制第一代 WIFI 插座，我沒裝，所以我不知道。</p>
+
+<p>當你完成 Homebridge 的安裝后，我們就要開始進行 <strong>MIPlusServer</strong> 的安裝。</p>
+
+<h3 id="toc_6">安裝 MIPlusServer</h3>
+
+<h4 id="toc_7">第一步，先 SSH Login 到你的 NanoPi，然後執行如下的命令</h4>
+
+<pre><code class="language-shell">git clone https://github.com/qoli/MiPlusServer.git
+cd ./MiPlusServer
+npm i
+chmod +x miServer.sh
+chmod +x run.sh
+</code></pre>
+
+<h4 id="toc_8">第二步，編寫你的 config.js 配置檔案</h4>
+
+<pre><code class="language-shell">touch config.js
+nano config.js
+</code></pre>
+
+<h5 id="toc_9">配置檔</h5>
+
+<pre><code class="language-javascript">module.exports = {
+  tgbot: false,
+  token: &quot;&quot;,
+  adminChatID: &quot;&quot;
+}
+</code></pre>
+
+<h4 id="toc_10">第三步，啟動 Telegram BOT（可選步驟）</h4>
+
+<p>如果你有啟用 Telegram Bot 作為監視 MIPlusServer 的運行必要，可以參考<br/>
+<a href="https://neighborhood999.github.io/2016/07/19/Develop-telegram-bot/">https://neighborhood999.github.io/2016/07/19/Develop-telegram-bot/</a><br/>
+這個教程，來獲取 Telegram BOT 的 token。</p>
+
+<h5 id="toc_11">暫時運行服務器</h5>
+
+<pre><code class="language-javascript">module.exports = {
+  tgbot: false,
+  token: &quot;Your Token Here.&quot;,
+  adminChatID: &quot;&quot;
+}
+</code></pre>
+
+<p>接著，先按照配置檔保存一下，使用 <code>./miServer.sh</code> 先讓服務器運行起來。</p>
+
+<h5 id="toc_12">獲取 adminChatID</h5>
+
+<p>按照下圖的辦法，加上你自己的機器人，就輸入 <code>id</code> 命令。機器人就會向你返回你的 Chat id 了。</p>
+
+<p><img src="media/14984836760698/Untitled.png" alt="Untitled"/></p>
+
+<pre><code class="language-javascript">module.exports = {
+  tgbot: false,
+  token: &quot;Your Token Here.&quot;,
+  adminChatID: &quot;Your chat id&quot;
+}
+</code></pre>
+
+<p>保存配置檔案即可。</p>
+
+<h4 id="toc_13">第四步，運行服務器</h4>
+
+<pre><code class="language-shell">screen -S miServer
+./miServer.sh
+</code></pre>
+
+<p><img src="media/14984836760698/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-06-26%20%E4%B8%8B%E5%8D%884.33.47.png" alt="螢幕快照 2017-06-26 下午4.33.47"/></p>
+
+<p>你看到這樣的信息就正確了。</p>
+
+<p>隨後，你應該看到這個屏幕。那麼就可以按下「CTRL + A；CTRL + D」來退出 screen 屏幕。我教你記住的口訣，<strong>控制你的 AD 鈣奶</strong>。</p>
+
+<p>現在，你的 NanoPi 服務器就初始化完成了。</p>
+
+<h2 id="toc_14">安裝 MiHomePlus App 到 Android</h2>
+
+<h3 id="toc_15">安裝 App</h3>
+
+<p>打開 <strong><a href="https://github.com/qoli/MiHomePlus/releases">https://github.com/qoli/MiHomePlus/releases</a></strong> 下載 <strong>MiHomePlus</strong> 當前的發佈版本。</p>
+
+<p>不過當前 App 我正在被標記為 0.1 版本，可能會有一些問題。也有可能在運行中就退出了。但是，我測試過，可以成功運行 1 天了。第二天我就沒遇到問題，只是我把他拿回來繼續開發了。</p>
+
+<h3 id="toc_16">啟動 App</h3>
+
+<p><img src="media/14984836760698/MiHomeIMG.png" alt="MiHomeIMG"/></p>
+
+<p>在啟動 App 后，首先，我們進行設定。</p>
+
+<h3 id="toc_17">App 設定</h3>
+
+<h4 id="toc_18">第一步，米家 App 的調整</h4>
+
+<p>啟動米家的 App，把需要監視的設備都放在同一個房間中。Homebridge 插件能控制的就不要放進來了。</p>
+
+<h6 id="toc_19">注意</h6>
+
+<p>在當前版本下，在一個屏幕之外的設備無法監控。</p>
+
+<p>按照圖片的步驟，把監控的設備都整理到 <strong>AndroidAPI</strong> 的房間中，當然，你可以叫其他的名字，例如「<strong>MiPlusDevices</strong>」。<br/>
+然後，你的米家就應該像圖二一樣的狀態。</p>
+
+<p><img src="media/14984836760698/MiHomePlus.002.jpeg" alt="MiHomePlus.002"/></p>
+
+<p><img src="media/14984836760698/MiHomeIMG2.png" alt="MiHomeIMG2"/></p>
+
+<h4 id="toc_20">第二步，打開 Web 設定頁面</h4>
+
+<p>打來瀏覽器，我的 NanoPi 是 <a href="http://192.168.1.104:3002">http://192.168.1.104:3002</a> 。<br/>
+所以，打開 <strong><a href="http://192.168.1.104:3002/setting">http://192.168.1.104:3002/setting</a></strong>。</p>
+
+<p>填寫房間名稱和設備列表，設備列表要使用「;」半角分號分開哦。在我這裡，主要就監視了這 4 個設備。</p>
+
+<h6 id="toc_21">注意</h6>
+
+<p>監控設備的名字必須和米家 App 顯示的名字一樣哦。</p>
+
+<ol>
+<li>空調伴侶 ﹣ 坑爹的空調伴侶不能被 Homebridge 控制！！！</li>
+<li>電腦燈﹣這個是使用了第一代的智能插座。</li>
+<li>落地燈﹣我也忘記這是什麼插座了，不連接網關的。</li>
+<li>空氣淨化器﹣還是第一代智能插座……</li>
+</ol>
+
+<p>OK，就這些了哦。</p>
+
+<p><img src="media/14984836760698/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-06-26%20%E4%B8%8B%E5%8D%8811.02.27.png" alt="螢幕快照 2017-06-26 下午11.02.27"/></p>
+
+<h4 id="toc_22">第三部，設定 Homebridge 配置檔</h4>
+
+<h6 id="toc_23">示例代碼：</h6>
+
+<pre><code>{
+      &quot;accessory&quot;: &quot;Switcheroo&quot;,
+      &quot;type&quot;: &quot;switch&quot;,
+      &quot;name&quot;: &quot;空調伴侶&quot;,
+      &quot;host&quot;: &quot;http://192.168.1.104:3002/device/%E7%A9%BA%E8%AA%BF%E4%BC%B4%E4%BE%B6&quot;,
+      &quot;on&quot;: &quot;/ON&quot;,
+      &quot;off&quot;: &quot;/OFF&quot;,
+      &quot;on_body&quot;: &quot;ON&quot;,
+      &quot;off_body&quot;: &quot;OFF&quot;
+    }
+</code></pre>
+
+<ol>
+<li>name﹣這個你真可以隨便叫，只會影響在 iOS 家庭 App 的顯示名字；</li>
+<li>host﹣請務必輸入「<a href="http://192.168.1.104:3002/device/%E8%A8%AD%E5%82%99%E5%90%8D%E5%AD%97%E3%80%8D%E8%A8%AD%E5%82%99%E5%90%8D%E5%AD%97%E4%B8%80%E5%AE%9A%E8%A6%81%E7%B6%93%E9%81%8E">http://192.168.1.104:3002/device/設備名字」設備名字一定要經過</a> URLEncode。</li>
+<li>有多少個設備就把上面的示例代碼添加多少次。</li>
+</ol>
+
+<p>給大家一個 URLEncode 的網址：<a href="https://www.urlencoder.org">https://www.urlencoder.org</a></p>
+
+<p><img src="media/14984836760698/MiHomePlus.005.jpeg" alt="MiHomePlus.005"/></p>
+
+<h4 id="toc_24">第四步，設定 MiHomePlus！</h4>
+
+<ol>
+<li>選擇「App 設定」</li>
+<li>設定伺服器地址。</li>
+</ol>
+
+<p>我的 NanoPi 就是 192.168.1.104 嘛。所以輸入了 <a href="http://192.168.1.104:3002">http://192.168.1.104:3002</a> 。<br/>
+保存后使用「讀取配置檔案」，就會看到按鈕下方的文字更新過來了。數據就會保存在 App 裡面了。</p>
+
+<p><img src="media/14984836760698/MiHomePlus.003.jpeg" alt="MiHomePlus.003"/></p>
+
+<h4 id="toc_25">第五步，關閉小米的神隱模式（小米的才需要）</h4>
+
+<p>這個神隱模式嘛，一開始我是不知道的。在開發過程中，每 5 分鐘就遇到 Socket.io 無故斷線，只有重啟才能恢復。後來轉用錘子開發，發現沒有遇到這個問題。我就上網 Google 了一下，才發現小米的神隱模式這個功能導致的。</p>
+
+<p><img src="media/14984836760698/MiHomePlus.001.jpeg" alt="MiHomePlus.001"/></p>
+
+<h4 id="toc_26">第六步，啟動 App</h4>
+
+<p>做了這麼多事情，終於開始了！<br/>
+把你的 Android 拿去充電吧。反正我的紅米第一代，不充電可以運行一天。</p>
+
+<p><img src="media/14984836760698/MiHomePlus.004.jpeg" alt="MiHomePlus.004"/></p>
+
+<h2 id="toc_27">享受完整 HomeKit 帶來的快感吧。</h2>
+
+<p><img src="media/14984836760698/IMG_5182.jpg" alt="IMG_5182"/></p>
+
+<p><img src="media/14984836760698/IMG_5178.jpg" alt="IMG_5178"/></p>
+
+<p><img src="media/14984836760698/IMG_5240.jpg" alt="IMG_5240"/></p>
+
+<h2 id="toc_28">Telegram BOT？</h2>
+
+<p>你啟動了這個選項的話。<br/>
+就可以收到一些 MiHomePlus 的狀態。<br/>
+<img src="media/14984836760698/14984924878827.jpg" alt=""/></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[一個關於 Socket.io Java 的問題解決方案]]></title>
+    <link href="http://www.5mlstudio.com/14983983768406.html"/>
+    <updated>2017-06-25T21:46:16+08:00</updated>
+    <id>http://www.5mlstudio.com/14983983768406.html</id>
+    <content type="html"><![CDATA[
+<p>由於需要實時通信服務，所以我使用了 Socket.io.</p>
+
+<h5 id="toc_0">現在注意到一個問題就是，當在大約 5 分鐘的時候。就會服務器發送到手機就沒響應了。</h5>
+
+<p><img src="media/14979762942479/14979763780796.jpg" alt=""/></p>
+
+<h5 id="toc_1">已經設定重鏈接。</h5>
+
+<p><img src="media/14979762942479/14979764216883.jpg" alt=""/></p>
+
+<p>請問各位大神有解決辦法嗎？這個問題卡有一段時間了。</p>
+
+<p>另外，Pong Ping 代碼也寫了，維持在 2 秒一次心跳。</p>
+
+<p>只要 App 重啟了，就可以正常通信了。真的好奇怪！！！但是重啟 App 的話，無障礙的開關必須手工重啟。</p>
+
+<h5 id="toc_2">5 分鐘斷線</h5>
+
+<p><img src="media/14979762942479/14979765661631.jpg" alt=""/></p>
+
+<h3 id="toc_3">這個問題只有小米有</h3>
+
+<p>我在小米的手機測試到無奈了。<br/>
+就拿錘子測試了一下。</p>
+
+<p>在錘子相同的代碼運作正常。很久很久也正常。</p>
+
+<p>後來經過刷 ROM 等一系列無意義的掙扎之後，突發奇想地在 Google 搜索了「MIUI Socket 5 分鐘 斷線」。竟然被我找到一個叫做「神隱模式」的說明。</p>
+
+<p><img src="media/14983983768406/14983984913466.jpg" alt=""/></p>
+
+<h3 id="toc_4">如何設定神隱模式？</h3>
+
+<p><img src="media/14983983768406/%E6%9C%AA%E5%91%BD%E5%90%8D.001.jpeg" alt="未命名.001"/></p>
+
+<h3 id="toc_5">保持運作 22 分鐘以上妥妥的！</h3>
+
+<p><img src="media/14983983768406/%E6%9C%AA%E5%91%BD%E5%90%8D.002.jpeg" alt="未命名.002"/></p>
+
+<h2 id="toc_6">結語</h2>
+
+<p>國產機的坑，真的<strong>好難猜得到</strong>啊。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[為你的米家提供完整的 HomeKit 接入方案]]></title>
+    <link href="http://www.5mlstudio.com/14979188569507.html"/>
+    <updated>2017-06-20T08:34:16+08:00</updated>
+    <id>http://www.5mlstudio.com/14979188569507.html</id>
+    <content type="html"><![CDATA[
+<h6 id="toc_0">Homebridge 方案一直鑒於米家開放度不足，所以總是不能把所有的米家設備都控制起來，我已經不爽很久了。終於，我把它解決了。</h6>
+
+<h5 id="toc_1">設計師折騰系列上文：</h5>
+
+<p><a href="https://www.v2ex.com/t/336563#reply56">https://www.v2ex.com/t/336563#reply56</a></p>
+
+<h2 id="toc_2">項目地址</h2>
+
+<p><a href="https://github.com/qoli/MiHomePlus">https://github.com/qoli/MiHomePlus</a><br/>
+<a href="https://github.com/qoli/MiPlusServer">https://github.com/qoli/MiPlusServer</a></p>
+
+<h5 id="toc_3">操作原理</h5>
+
+<ol>
+<li>調用「無障礙」特性，監視和控制米家 App，當「TYPE_WINDOW_CONTENT_CHANGED」觸發時候，與 MiPlusServer 同步設備狀態。</li>
+<li>與 MiPlusServer 透過 Socket.io 觸發 MIHomePlus 進行狀態切換。</li>
+<li>在 Homebridge 基於 Switcheroo 插件提供操作接口。</li>
+<li>所以 MiPlusServer 本質是 Web 接口</li>
+</ol>
+
+<h2 id="toc_4">項目起因</h2>
+
+<p>天氣開始熱起來了，某日突發奇想，買了一個 NanoPi。</p>
+
+<h5 id="toc_5">Nano Pi</h5>
+
+<p><img src="media/14979188569507/IMG_5071.jpg" alt="IMG_5071"/></p>
+
+<h5 id="toc_6">搭建了很 Cool 的 HomeBridge。</h5>
+
+<p><img src="media/14979188569507/IMG_5099.jpg" alt="IMG_5099"/></p>
+
+<p>後來數日后，歡喜地買了一個小米的空調伴侶。悲劇就從而而生了。</p>
+
+<h2 id="toc_7">悲劇</h2>
+
+<p>小米的空調伴侶，竟然是不支持裝好的 Homebridge !<br/>
+我無法接受的我，開始了浪費生命的折騰。</p>
+
+<p><img src="media/14979188569507/IMG_5176.jpg" alt="IMG_5176"/></p>
+
+<h3 id="toc_8">Android ADB 腳本方案</h3>
+
+<p>鑒於我只是一個設計師而言，我首先想到的辦法，是基於 Android ADB 指令，透過數據線去操作 Android 手機作為代理。<br/>
+在大約 30 分鐘 ~ 60 分鐘后，我寫出了像樣的腳本了。</p>
+
+<p><img src="media/14979188569507/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-06-17%20%E4%B8%8A%E5%8D%886.00.00.png" alt="螢幕快照 2017-06-17 上午6.00.00"/></p>
+
+<h3 id="toc_9">把 ADB 方案集成到 HomeKit</h3>
+
+<p>在集成到 Homebridge 時候就遇到大問題了。調用腳本操作時候一切都好，但是就是無法在 HomeKit 使用。我上網檢查了文檔，發現 HomeKit 最長允許 2s 以內的指令，然而，我這個模擬方案，指令時長達到 30s 以上。<br/>
+所以，只能放棄此 ADB 方案。</p>
+
+<p><img src="media/14979188569507/image.jpg" alt="image"/></p>
+
+<h2 id="toc_10">尋覓新方案，基於 Android Accessibility</h2>
+
+<p>我作為人生從沒開發過 Android / iOS 的設計師。只會前端 / Nodejs / PHP 這三個語言。<br/>
+經過我一番搜索之後，我看到 Accessibility 相關的代碼好像特別簡單。<br/>
+所以，我決定下載一個 Android Studio 來啟動我的 Android 之旅。</p>
+
+<h3 id="toc_11">寫起來，發現 Android 開發其實不難</h3>
+
+<p><img src="media/14979188569507/14979193656529.jpg" alt=""/></p>
+
+<p>經過了 2 天時間，我終於把能用的 Android App 寫好了。我沒有覺得太多坑，我只是覺得英文資料太多，看起來很累而已。除了每次編譯的速度真的很慢之外，其他都還挺好的。</p>
+
+<p>在寫的過程中，我都很少去看文檔，主要依賴 Google 知識點，閱讀別人的源代碼，很快地，就把核心功能組裝好了。又花了 120 分鐘時間，把服務器通信部分也組裝好了。</p>
+
+<p>又花了好多好多時間，把 Socket IO 也折騰好了。</p>
+
+<h3 id="toc_12">服務器端﹣Nodejs</h3>
+
+<p>Nodejs 部分最為簡單了，畢竟還是熟悉的嘛~簡單的接口就折騰好了。</p>
+
+<p><img src="media/14979188569507/14979199145913.jpg" alt=""/></p>
+
+<h3 id="toc_13">Homebridge 接口</h3>
+
+<p>Homebridge 使用了 homebridge-switcheroo 作為通信插件，搞定。</p>
+
+<p><img src="media/14979188569507/14979196568941.jpg" alt=""/></p>
+
+<p>一切的都搞定了，除了程序配置化</p>
+
+<h2 id="toc_14">演示視頻：</h2>
+
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/qDAgBuW29lY?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+
+<p><img src="media/14979188569507/IMG_5178.jpg" alt="IMG_5178"/></p>
+
+<p><img src="media/14979188569507/IMG_5182.jpg" alt="IMG_5182"/></p>
+
+<p><img src="media/14979188569507/14983677551825.jpg" alt=""/></p>
+
+<h2 id="toc_15">關於小米的特殊設定</h2>
+
+<p>需要把 <strong>MiHomePlus</strong> 設定為<strong>無限制</strong>模式。<br/>
+<img src="media/14979188569507/MiHomePlus.001.jpeg" alt="MiHomePlus.001"/></p>
+
+<p>這樣就可以持續運作 20 分鐘都沒問題咯。</p>
+
+<p><img src="media/14979188569507/MiHomePlus.002.jpeg" alt="MiHomePlus.002"/></p>
+
+<h2 id="toc_16">Telegram BOT</h2>
+
+<p>透過 Telegram BOT，可以看看服務器是不是還在運行~ 未來可以透過 BOT 加入遠程管理的功能哦！</p>
+
+<p><img src="media/14979188569507/14984455194464.jpg" alt=""/></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[作為一個設計師，我寫了一個七牛上傳的 App]]></title>
+    <link href="http://www.5mlstudio.com/14852083581985.html"/>
+    <updated>2017-01-24T05:52:38+08:00</updated>
+    <id>http://www.5mlstudio.com/14852083581985.html</id>
+    <content type="html"><![CDATA[
+<p>其實也就是前端的工作居多。</p>
+
+<p>某日，一友人因把文件上傳到 Dropbox 而引發眾怒。<br/>
+然而，百度雲也越來越不好用了。</p>
+
+<p>故之，我隨意吐槽之。<br/>
+某日把七牛做一個右鍵服務而方便之。</p>
+
+<p><img src="media/14852083581985/DATE-2017-1-24-5-51.png" alt="DATE-2017-1-24-5-51"/></p>
+
+<p>於是乎，週六深夜見平日寫小程序已悶死，就想起答應友人的事情了。<br/>
+選用 electron-vue 作為基礎框架開發。<br/>
+雖然 nodejs 也就是學了 5 日，ES6 也才接觸 7 日，Electron 更不用提了，第一次用。VUE 也是第一次用。<br/>
+之前只有 jQuery 和 angularjs \ CSS3 \ HTML \ PHP \ SQL 這些基礎而已。</p>
+
+<h2 id="toc_0">設計定稿</h2>
+
+<p>作為一個設計師，怎麼也要樣子好看，所以就以設計稿起步為先。</p>
+
+<p><img src="media/14852083581985/DATE-2017-1-24.png" alt="DATE-2017-1-24"/></p>
+
+<p>我把主界面畫了出來，確定好 UI 風格了。</p>
+
+<h2 id="toc_1">代碼編寫</h2>
+
+<p>代碼是開始在週日凌晨 1 點多。<br/>
+我選用了  electron-vue 作為解決方案。</p>
+
+<p>不過，由於 VUE 不熟悉，也碰到了一些坑。</p>
+
+<p>例如：<br/>
+1. 不知道如何引用文件（感覺以前的前端技能被殘廢了一樣）<br/>
+2. 寫完 CSS 才發現，A 頁面的 CSS 會干擾 B 頁面的 CSS（我還以為和小程序、React那樣）<br/>
+3. VUE 的路由我理解了好長時間才明白。</p>
+
+<p>我以前一直寫 jQuery，異步和 DOM 管理沒什麼問題。可是遇到 VUE，我真的覺得腦子的思維要轉變了哦。<br/>
+特別是路由，這個明明不就是後端的事情嗎？怎麼前端模板也有路由概念，我折騰了有 1 小時，才發現原來所謂路由不是跳轉 GET/POST 的意思，而是切換顯示的頁面。</p>
+
+<p>Google 時候一直出現的 SPA 這個詞，其實我也沒理解。直到我剛才專門 Google 才知道了。大哭。</p>
+
+<h2 id="toc_2">Electron 的坑</h2>
+
+<p>這貨坑也不少。</p>
+
+<p>例如：<br/>
+1. 複製粘貼在 Build 后完全用不了。<br/>
+2. 一開始抓頭在思考怎麼做 GET 和 POST……<br/>
+3. 背景模糊玻璃效果，還沒能實現，不過在 demo 的確能做到。<br/>
+4. 打包后，竟然找不到 modules……</p>
+
+<h2 id="toc_3">七牛的坑</h2>
+
+<p>七牛這個坑實在太大了。官方的 NODEJS SDK 雖然在 npm run dev 能用，在打包后，會開多個窗口，也上傳不了文件。</p>
+
+<h2 id="toc_4">開發</h2>
+
+<p>總之而言，在我 App 編寫 6 個小時候之後，終於基本可以面世了。以 Electron 的方案來開發 App 的確比傳統要舒服和快，而且動畫效果寫起來不吃力（畢竟強大的 CSS3 動畫真厲害），所以我在 App 添加了比較多的動畫效果。</p>
+
+<p>Electron 打包的確很大，也無解。經過 ZIP 壓縮后有 40 多MB，還算能接受。</p>
+
+<h2 id="toc_5">後續想法</h2>
+
+<p>還有一些想加入來的東西還沒加，例如拖入文件上傳，以及顯示上傳時候的進度和網速。我相信顯示上傳進度應該沒可能了，但是網速我應該去 Google 找找解決方案。Electron 如果有更多原生插件就好了。</p>
+
+<h1 id="toc_6">界面</h1>
+
+<p><img src="media/14852083581985/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-01-24%20%E4%B8%8A%E5%8D%885.54.22.png" alt="螢幕快照 2017-01-24 上午5.54.22"/></p>
+
+<p><img src="media/14852083581985/14852093686665.jpg" alt=""/></p>
+
+<p><img src="media/14852083581985/DATE.png" alt="DATE"/></p>
+
+<h2 id="toc_7">動畫效果</h2>
+
+<p>就留給你們下載試試看吧。</p>
+
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/Pc-vmGwy8gQ?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+
+<p><img src="media/14852083581985/14983674423778.png" alt=""/></p>
+
+<h2 id="toc_8">發佈版下載</h2>
+
+<p><a href="https://github.com/qoli/QiNA/releases/">https://github.com/qoli/QiNA/releases/</a></p>
+
+<h2 id="toc_9">更新日誌</h2>
+
+<h5 id="toc_10">2017年01月26日</h5>
+
+<h5 id="toc_11">添加</h5>
+
+<ul>
+<li>文件拖放上傳加入。</li>
+</ul>
+
+<h5 id="toc_12">修正</h5>
+
+<ul>
+<li>因代碼錯誤而無法點擊的中央大圓圈。</li>
+<li>分離部分 css。</li>
+</ul>
+
+<h5 id="toc_13">2017年01月26日．之前</h5>
+
+<p>0.0.3 版本．發佈</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[快速应用 Flex 布局]]></title>
+    <link href="http://www.5mlstudio.com/14843413030838.html"/>
+    <updated>2017-01-14T05:01:43+08:00</updated>
+    <id>http://www.5mlstudio.com/14843413030838.html</id>
+    <content type="html"><![CDATA[
+<h5 id="toc_0">因为要写小程序。所以，就学会了 Flex 布局了。</h5>
+
+<p>我先看了一篇入门文章觉得是为甚好，比另一个技术网红写的那篇筛子好多了。最少这篇文章我是一次性就看会了。技术网红那篇我看了七八次都没看懂。<br/>
+<a href="http://www.oxxostudio.tw/articles/201501/css-flexbox.html">http://www.oxxostudio.tw/articles/201501/css-flexbox.html</a></p>
+
+<h5 id="toc_1">CSS 样式表</h5>
+
+<p>既然会了，那么，我就把一些 CSS 进行了简单封装了。<br/>
+于是乎，就有了下面的 CSS 样式了。</p>
+
+<pre><code>// flex
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column
+}
+
+.flex-row {
+  flex-direction: row
+}
+
+.aitems-flex-start {
+  align-items: flex-start;
+}
+
+.aitems-center {
+  align-items: center;
+}
+
+.aitems-flex-end {
+  align-items: flex-end;
+}
+
+.aself-center {
+  align-self: center;
+}
+
+.aself-center {
+  align-self: flex-end;
+}
+
+.acontent-center {
+  align-content: center;
+}
+
+.acontent-flex-end {
+  align-content: flex-end;
+}
+
+.jcontent-center {
+  justify-content: center;
+}
+
+.jcontent-flex-end {
+  justify-content: flex-end;
+}
+
+.jcontent-flex-start {
+  justify-content: flex-start;
+}
+</code></pre>
+
+<h5 id="toc_2">Web 应用</h5>
+
+<p>既然如此，有了 css 样式表，那么应用也特别简单了。</p>
+
+<p><img src="media/14843413030838/14843415402170.jpg" alt="" style="width:406px;"/></p>
+
+<p>如上图，我要写上面的样式。就这样写代码就好了。</p>
+
+<pre><code>&lt;view class=&quot;top flex flex-row aitems-center overflow-visible&quot; &gt;
+    &lt;view class=&quot;avatar overflow-visible&quot; &gt;
+            &lt;image src=&quot;{{userInfo.avatarUrl}}&quot; class=&quot;avatar-image&quot; /&gt;
+    &lt;/view&gt;
+    &lt;view class=&quot;text&quot;&gt;
+            &lt;view class=&quot;area&quot; &gt;
+                    &lt;view class=&quot;title b&quot; &gt;庫倪&lt;/view&gt;
+                    &lt;view class=&quot;p color-light&quot; &gt;全棧設計師&lt;/view&gt;
+                    &lt;view class=&quot;p color-light&quot; &gt;現在全職打理樣本工作室&lt;/view&gt;
+            &lt;/view&gt;
+    &lt;/view&gt;
+&lt;/view&gt;
+</code></pre>
+
+<h5 id="toc_3">结语</h5>
+
+<p>封装好的 CSS 样式实在太好用了。最大问题是我的 Sublime Text 不知道为什么没有相关 Flex 的代码提示。<br/>
+不过，我在 Float 漂浮年代也是喜欢这样封装来写。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[用「吃到」Demo 向你介紹酷酷動效的製作辦法]]></title>
+    <link href="http://www.5mlstudio.com/14830906118556.html"/>
+    <updated>2016-12-30T17:36:51+08:00</updated>
+    <id>http://www.5mlstudio.com/14830906118556.html</id>
+    <content type="html"><![CDATA[
+<h5 id="toc_0">學會程序員會把你打死系列之 Principle 動效製作</h5>
+
+<p>Principle 是一個可以很快速製作 Cool 動畫的 App，學會這個神奇，程序員一定很樂意把你打死。我們在這裡，將使用我正在進行的項目「吃到」來介紹怎麼使用。</p>
+
+<p>在往常的項目，一般使用 After Effect 這個軟件製作特殊動畫。當然，AE 是某些動畫的最佳選擇（軌跡動畫、特殊變形等）。但是，這裡將會介紹一個更為輕量和快速的過場動畫製作工具﹣Principle，它更為合適製作過場動畫，例如放大、簡單變形、半透明變化等，並且關心 ease。</p>
+
+<h3 id="toc_1">最終效果</h3>
+
+<p><img src="media/14830906118556/2016-12-30%2015_54_43.gif" alt="2016-12-30 15_54_43" style="width:400px;"/><br/>
+<a href="https://dribbble.com/shots/3184352-Eatin-New-UI">Also Check in Dribbble</a></p>
+
+<h3 id="toc_2">教程</h3>
+
+<h5 id="toc_3">前言</h5>
+
+<p>若要使用 Principle ，請認識清楚一下大概流程步驟。<br/>
+1. 在 Sketch 繪製效果圖；<br/>
+2. 建立專用的動效用版本，其中，以需要變化的圖形，并提至最高層。將大於畫布的圖形，使用蒙版工具，限制在畫布之內。<br/>
+3. 啟動 Principle 工具，導入 Sketch 文件；<br/>
+4. 點選對應圖形，類似 Xcode 拖動到下一場景。</p>
+
+<p>大致流程如上，還有一個注意點。<br/>
+Principle 自動變形處理<strong>依賴相同的圖層名稱</strong>，如果發生動畫跳動，就是一般在相同畫布內，有兩個同名圖層。</p>
+
+<h5 id="toc_4">在 Sketch 繪製效果圖，以及建立動效專用版本；</h5>
+
+<p><img src="media/14830906118556/14830922472284.jpg" alt=""/></p>
+
+<p>Sketch 如何繪製效果圖就不多說了。</p>
+
+<h5 id="toc_5">啟動 Principle 并導入</h5>
+
+<p><img src="media/14830906118556/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202016-12-30%20%E4%B8%8B%E5%8D%886.41.33.png" alt="螢幕快照 2016-12-30 下午6.41.33"/></p>
+
+<p>為了更方便大家學習，我錄製了一個簡短的視頻教程。</p>
+
+<h6 id="toc_6">視頻</h6>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/tq9bSM7OTK8" frameborder="0" allowfullscreen></iframe>
+
+<p><strong>在線檢閱</strong> <a href="https://youtu.be/tq9bSM7OTK8">https://youtu.be/tq9bSM7OTK8</a></p>
+
+<h5 id="toc_7">開始動畫：畫布 A0 到 A1</h5>
+
+<p><img src="media/14830906118556/14830955695973.jpg" alt="" style="width:500px;"/></p>
+
+<p>或許你會在疑惑，為什麼會這樣做？<br/>
+我們也可以把這裡設定為 A0 auto 的過場效果，只是，如果使用 Tap 的話，將會更方便我們最後要錄製動畫。</p>
+
+<p><img src="media/14830906118556/P1.gif" alt="P1"/></p>
+
+<h5 id="toc_8">點擊美食：畫布 A1 到 A3</h5>
+
+<p><img src="media/14830906118556/14830964404605.jpg" alt="" style="width:1767px;"/></p>
+
+<p>我們注意頂部的線條，這裡記錄了動畫運動方向。<br/>
+從 A1 過度到 A3 的動畫，為什麼會有 A2 畫布呢？<br/>
+這是因為，我想製作一個主圖先放大，接著其他信息才出現的狀態。所以，就補充了 A2 畫布。<br/>
+那麼，我們在設定動畫時候，先設定為點擊圖片，跳轉到 A2 畫布，再自動跳轉到 A3 畫布，就達到這個效果了。</p>
+
+<p><img src="media/14830906118556/P2.gif" alt="P2"/></p>
+
+<h5 id="toc_9">返回列表：畫布 A3 到 A1-2 到 A1</h5>
+
+<p><img src="media/14830906118556/14830973593943.jpg" alt="" style="width:1734px;"/></p>
+
+<p>我們剛才完成了進入動畫。接著，我們來完成返回動畫。<br/>
+這裡，我們注意到上圖，是從 A3 返回到 A1-2，再從 A1-2 返回到 A1。<br/>
+為什麼是這樣的流程呢？其實剛才也提及過了，是為了製作一個兩段式動畫。<br/>
+而且，最關鍵的事情是，主要在 Principle 圖層名稱相同，他們就會自動創建之間的補間動畫。同時間，我把 A1-2 裡面的 “Group 4” 圖層往上拖了一下，那麼，它等下就會自動從頂部滑下咯。</p>
+
+<p><img src="media/14830906118556/P3.gif" alt="P3"/></p>
+
+<h5 id="toc_10">動畫細緻化設定</h5>
+
+<p><img src="media/14830906118556/A1.png" alt="A1" style="width:512px;"/></p>
+
+<p>在這裡，我們注意到，我把寬高的轉換 ease 方法改為 Both。<br/>
+這樣是為了略微吸引注意力的變化效果。<br/>
+往往而言，其實所有設計師都會為了調整一些效果，調整參數好久好久哦。記得把調整好的參數給程序員。</p>
+
+<h3 id="toc_11">END</h3>
+
+<p>這個快速而簡單的 Principle 過場動畫就製作完畢啦。<br/>
+Enjoy 一下吧。</p>
+
+<p><img src="media/14830906118556/P-END.gif" alt="P-END"/></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2016 年的 Pay for Answer Project]]></title>
+    <link href="http://www.5mlstudio.com/14829827605803.html"/>
+    <updated>2016-12-29T11:39:20+08:00</updated>
+    <id>http://www.5mlstudio.com/14829827605803.html</id>
+    <content type="html"><![CDATA[
+<p><img src="media/14829527317231/2016Top.jpg" alt="2016Top"/></p>
+
+<p><img src="media/14829527317231/2016Project%2008-1.jpg" alt="2016Project 08-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2008-2.jpg" alt="2016Project 08-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2008-3.jpg" alt="2016Project 08-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2008-4.jpg" alt="2016Project 08-4"/></p>
+
+<p><img src="media/14829527317231/2016Project%2008-5.jpg" alt="2016Project 08-5"/></p>
+
+<p><img src="media/14829527317231/2016Project%2008-6.jpg" alt="2016Project 08-6"/></p>
+
+<p><img src="media/14829527317231/2016Project%2008-7.jpg" alt="2016Project 08-7"/></p>
+
+<p><img src="media/14829527317231/2016Project%2008-8.jpg" alt="2016Project 08-8"/></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2016﹣年度作品回顧]]></title>
+    <link href="http://www.5mlstudio.com/2016-Works.html"/>
+    <updated>2016-12-29T03:18:51+08:00</updated>
+    <id>http://www.5mlstudio.com/2016-Works.html</id>
+    <content type="html"><![CDATA[
+<p><img src="media/14829527317231/2016Top.jpg" alt="2016Top"/></p>
+
+<p><img src="media/14829527317231/2016Project%2001.jpg" alt="2016Project 01"/></p>
+
+<p><img src="media/14829527317231/2016Project%2001-2.jpg" alt="2016Project 01-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2001-3.jpg" alt="2016Project 01-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2001-4.jpg" alt="2016Project 01-4"/></p>
+
+<p><img src="media/14829527317231/2016Project%2002-1.jpg" alt="2016Project 02-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2002-2.jpg" alt="2016Project 02-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2002-3.jpg" alt="2016Project 02-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2002-4.jpg" alt="2016Project 02-4"/></p>
+
+<p><img src="media/14829527317231/2016Project%2002-5.jpg" alt="2016Project 02-5"/></p>
+
+<p><img src="media/14829527317231/2016Project%2003-1.jpg" alt="2016Project 03-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2003-2.jpg" alt="2016Project 03-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2004-1.jpg" alt="2016Project 04-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2004-2.jpg" alt="2016Project 04-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2004-3.jpg" alt="2016Project 04-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2004-4.jpg" alt="2016Project 04-4"/></p>
+
+<p><img src="media/14829527317231/2016Project%2004-5.jpg" alt="2016Project 04-5"/></p>
+
+<p><img src="media/14829527317231/2016Project%2004-6.jpg" alt="2016Project 04-6"/></p>
+
+<p><img src="media/14829527317231/2016Project%2005-1.jpg" alt="2016Project 05-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2005-2.jpg" alt="2016Project 05-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2005-3.jpg" alt="2016Project 05-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2005-4.jpg" alt="2016Project 05-4"/></p>
+
+<p><img src="media/14829527317231/2016Project%2005-5.jpg" alt="2016Project 05-5"/></p>
+
+<p><img src="media/14829527317231/2016Project%2005-6.jpg" alt="2016Project 05-6"/></p>
+
+<p><img src="media/14829527317231/2016Project%2005-7.jpg" alt="2016Project 05-7"/></p>
+
+<p><img src="media/14829527317231/2016Project%2005-8.jpg" alt="2016Project 05-8"/></p>
+
+<p><img src="media/14829527317231/2016Project%2006-1.jpg" alt="2016Project 06-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2006-2.jpg" alt="2016Project 06-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2006-3.jpg" alt="2016Project 06-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2006-4.jpg" alt="2016Project 06-4"/></p>
+
+<p><img src="media/14829527317231/2016Project%2006-5.jpg" alt="2016Project 06-5"/></p>
+
+<p><img src="media/14829527317231/2016Project%2007-1.jpg" alt="2016Project 07-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2007-2.jpg" alt="2016Project 07-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2007-3.jpg" alt="2016Project 07-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2007-4.jpg" alt="2016Project 07-4"/></p>
+
+<p><img src="media/14829527317231/2016Project%2007-5.jpg" alt="2016Project 07-5"/></p>
+
+<p><img src="media/14829527317231/2016Project%2009-1.jpg" alt="2016Project 09-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2009-2.jpg" alt="2016Project 09-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2009-3.jpg" alt="2016Project 09-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2010-1.jpg" alt="2016Project 10-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2010-2.jpg" alt="2016Project 10-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2010-3.jpg" alt="2016Project 10-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2010-4.jpg" alt="2016Project 10-4"/></p>
+
+<p><img src="media/14829527317231/2016Project%2010-5.jpg" alt="2016Project 10-5"/></p>
+
+<p><img src="media/14829527317231/2016Project%2010-6.jpg" alt="2016Project 10-6"/></p>
+
+<p><img src="media/14829527317231/2016Project%2011-1.jpg" alt="2016Project 11-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2011-2.jpg" alt="2016Project 11-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2011-3.jpg" alt="2016Project 11-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2012-1.jpg" alt="2016Project 12-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2012-2.jpg" alt="2016Project 12-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2012-3.jpg" alt="2016Project 12-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2012-4.jpg" alt="2016Project 12-4"/></p>
+
+<p><img src="media/14829527317231/2016Project%2013-1.jpg" alt="2016Project 13-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2013-2.jpg" alt="2016Project 13-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2013-3.jpg" alt="2016Project 13-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2013-4.jpg" alt="2016Project 13-4"/></p>
+
+<p><img src="media/14829527317231/2016Project%2013-5.jpg" alt="2016Project 13-5"/></p>
+
+<p><img src="media/14829527317231/2016Project%2013-6.jpg" alt="2016Project 13-6"/></p>
+
+<p><img src="media/14829527317231/2016Project%2014-1.jpg" alt="2016Project 14-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2014-2.jpg" alt="2016Project 14-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2015-1.jpg" alt="2016Project 15-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2015-2.jpg" alt="2016Project 15-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2016-1.jpg" alt="2016Project 16-1"/></p>
+
+<p><img src="media/14829527317231/2016Project%2016-2.jpg" alt="2016Project 16-2"/></p>
+
+<p><img src="media/14829527317231/2016Project%2016-3.jpg" alt="2016Project 16-3"/></p>
+
+<p><img src="media/14829527317231/2016Project%2016-4.jpg" alt="2016Project 16-4"/></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[推薦「新同文堂」繁體簡體閱讀的福音插件]]></title>
+    <link href="http://www.5mlstudio.com/14829374884615.html"/>
+    <updated>2016-12-28T23:04:48+08:00</updated>
+    <id>http://www.5mlstudio.com/14829374884615.html</id>
+    <content type="html"><![CDATA[
+<h5 id="toc_0">自備「新同文堂」對自己的簡繁閱讀習慣負責。</h5>
+
+<p>偶然有一些讀者表示不習慣繁體閱讀，經過知乎用戶<a href="https://www.zhihu.com/people/husa-hong">“虎卅泓”</a>推薦，我發現新同文堂是一個十分合適此類用戶的插件。</p>
+
+<p><img src="media/14829374884615/14829376198084.jpg" alt=""/></p>
+
+<p><strong>下載鏈接：</strong> <a href="https://chrome.google.com/webstore/detail/new-tong-wen-tang/ldmgbgaoglmaiblpnphffibpbfchjaeg?hl=zh-TW">Chrome﹣新同文堂</a></p>
+
+<h3 id="toc_1">效果展示</h3>
+
+<p><img src="media/14829374884615/14829377973244.jpg" alt=""/></p>
+
+<p><img src="media/14829374884615/14829378231663.jpg" alt=""/></p>
+
+<p>這裡以網易新聞為例，作為繁體擁護者的我，認為轉換效果還是挺不錯的。</p>
+
+<h3 id="toc_2">繁體詞彙？</h3>
+
+<p>當然，這個 Chrome 插件沒有詞彙轉換這個功能。例如智能，不會轉為港台習慣的智慧。</p>
+
+<p>我們可以比較一下使用原生繁體的香港媒體，就能看到其繁轉簡的差別了。</p>
+
+<p><img src="media/14829374884615/14829383055852.jpg" alt=""/></p>
+
+<p><img src="media/14829374884615/14829383336672.jpg" alt=""/></p>
+
+<p>然而一篇差不多的文章，在中國大陸的文案方案就是不一樣的了。</p>
+
+<p>不過，如果遇到那種口頭語言更多的文章，恐怕「新同文堂」就無能為力咯。</p>
+
+<p><img src="media/14829374884615/14829384313509.jpg" alt="" style="width:447px;"/></p>
+
+<h3 id="toc_3">總結</h3>
+
+<p>反正，anything way。<br/>
+最少，讓習慣閱讀繁體或者中意睇簡體的人，都多一個選擇。總比只能看著還沒認識全的繁體中文，硬生生地看，要舒服得多咯。</p>
+
+<p>即刻就 Download 一個給你心愛的 Chrome 裝吧。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[工作室網站更新日誌]]></title>
+    <link href="http://www.5mlstudio.com/14827537115278.html"/>
+    <updated>2016-12-26T20:01:51+08:00</updated>
+    <id>http://www.5mlstudio.com/14827537115278.html</id>
+    <content type="html"><![CDATA[
+<h5 id="toc_0">網站</h5>
+
+<p>聖誕期間我建立了工作室網站。</p>
+
+<h5 id="toc_1">更新記錄</h5>
+
+<h6 id="toc_2">2017-01-11 07:38:41</h6>
+
+<ul>
+<li>「-」cloudflare CDN。</li>
+<li>「+」遷移到國內服務器。</li>
+<li>「+」SSL 支持。</li>
+<li>「+」部分內容放置於七牛 CDN。</li>
+</ul>
+
+<h6 id="toc_3">2016-12-30 21:53:11</h6>
+
+<ul>
+<li>「＋」添加 cloudflare CDN；</li>
+<li>「＋」添加 Disqus 討論；</li>
+<li>「＋」添加 美洽。</li>
+</ul>
+
+<h6 id="toc_4">2016-12-27 02:46:23</h6>
+
+<ul>
+<li>「＝」經過友人的建議，改善首頁的排版風格；</li>
+<li>「＝」改善移動端頁腳樣式。</li>
+</ul>
+
+<h6 id="toc_5">2016-12-26 23:44:00</h6>
+
+<ul>
+<li>「＝」Fonts 去 Google 化；</li>
+<li>「﹣」隱藏不可用功能。</li>
+</ul>
+
+<h6 id="toc_6">2016-12-26</h6>
+
+<ul>
+<li>「＋」網站初始化，上線；</li>
+<li>「＋」添加 GA 分析；</li>
+<li>「＝」調整文章分類樣式；</li>
+<li>「＋」移動端界面優化。</li>
+</ul>
+
+<h6 id="toc_7">未落實功能：</h6>
+
+<ul>
+<li>站內搜索功能；</li>
+<li>語言翻譯功能。</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[工作室網站建立]]></title>
+    <link href="http://www.5mlstudio.com/14827494682326.html"/>
+    <updated>2016-12-26T18:51:08+08:00</updated>
+    <id>http://www.5mlstudio.com/14827494682326.html</id>
+    <content type="html"><![CDATA[
+<h5 id="toc_0">這是一個歷史問題</h5>
+
+<p>5mlstudio.com 這個域名其實買了特別久了。<br/>
+我一直沒有把他好好建立起來。</p>
+
+<p><img src="media/14827494682326/14827495397544.jpg" alt="" style="width:1762px;"/></p>
+
+<p>其實，一個工作室的網站不需要奢華，只需要簡單好看就足夠了。<br/>
+本著這個理念，我終於在一個晚上把工作室的網站搭建了起來。</p>
+
+<h3 id="toc_1">網站後台</h3>
+
+<p>這個網站我並沒有建立後台，而是使用靜態 Blog 程序來建立起來的。這樣的好處是，靜態網站訪問速度很快，而且，我又有一個原生後台用。<br/>
+反正就是，特別方便。</p>
+
+<p><img src="media/14827494682326/14827498432213.jpg" alt=""/></p>
+
+<h3 id="toc_2">同步</h3>
+
+<p>目前，同步是一個問題，我暫時還沒有寫對應的同步腳本，而是在使用 Transmit 的同步功能，其不好的地方是，雖然 Automator 可以運行其指定功能，可惜每次一次都要點擊一下「開始」按鈕，特別不方便。我將會找一個 CLI 的 FTP 同步方案來取代這個 Automator 方案。</p>
+
+<h3 id="toc_3">一切其他的缺點</h3>
+
+<p>例如，網站我還沒有加入 Google 分析、完全的去 Google 化。</p>
+
+<blockquote>
+<p>Google 的產品那麼好用，國內的百度你怎麼不學一下，但是你也學不會了，我期待阿里巴巴了。</p>
+</blockquote>
+
+<h3 id="toc_4">觀摩</h3>
+
+<p>工作室網站地址：<a href="http://5mlstudio.com/index.html">http://5mlstudio.com/index.html</a><br/>
+歡迎看看。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MWeb 編輯器的全新 Toolbar 樣式]]></title>
+    <link href="http://www.5mlstudio.com/14827339224737.html"/>
+    <updated>2016-12-26T14:32:02+08:00</updated>
+    <id>http://www.5mlstudio.com/14827339224737.html</id>
+    <content type="html"><![CDATA[
+<h5 id="toc_0">忍不住就去修改的細節</h5>
+
+<p>MWeb 很好用，就是 Toolbar 太醜了。</p>
+
+<p><img src="media/14827339224737/P1.png" alt="P1"/></p>
+
+<hr/>
+
+<h3 id="toc_1">細節</h3>
+
+<p><img src="media/14827339224737/p2.png" alt="p2"/></p>
+
+<p><img src="media/14827339224737/P3.png" alt="P3"/></p>
+
+<p>在這個 Toolbar 替換的時候，我把一些難以理解的圖形，替換為意思更加明確的圖形。<br/>
+例如，上圖中切換左邊兩欄目的圖標。<br/>
+在新版中，是一個矩形加左側高亮。</p>
+
+<p>當然，在這裡還有很多不如人意的細節，我將會在日後使用 MWeb 中，繼續深挖它。</p>
+
+<h3 id="toc_2">下載</h3>
+
+<p>更新時間：2016年12月26日<br/>
+下載地址：<a href="media/14827339224737/MWeb-Toolbar-assets.zip">MWeb-Toolbar-assets</a></p>
+
+<h3 id="toc_3">關注</h3>
+
+<p>我的微博：<a href="http://weibo.com/qoli">http://weibo.com/qoli</a><br/>
+知乎專欄：<a href="http://zhuanlan.zhihu.com/5mlstudio">http://zhuanlan.zhihu.com/5mlstudio</a><br/>
+工作室網站：<a href="http://www.5mlstudio.com">http://www.5mlstudio.com</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[網站重新建立]]></title>
+    <link href="http://www.5mlstudio.com/14825087883046.html"/>
+    <updated>2016-12-23T23:59:48+08:00</updated>
+    <id>http://www.5mlstudio.com/14825087883046.html</id>
+    <content type="html"><![CDATA[
+<p>5mlStudio.com 這個域名，我其實買了好久時間了。<br/>
+不過，一直都放著，沒有動力來搭建網站。<br/>
+只是，放了一個 JustWriting，不過也沒有更新。</p>
+
+<h5 id="toc_0">機緣</h5>
+
+<p>直到，最近我有些事情不能出門見人，所以嘛。<br/>
+躲在家裡，突然間就把 5ML 的網站做好了。</p>
+
+<p>就是這麼簡單了。</p>
+
+<p><img src="media/14825087883046/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202016-12-23%20%E4%B8%8B%E5%8D%887.13.09.png" alt="螢幕快照 2016-12-23 下午7.13.09"/></p>
+
+<h5 id="toc_1">MWeb 建站服務</h5>
+
+<p>其實，MWeb 是一個特別出色的軟件。<br/>
+MWeb ：<a href="http://zh.mweb.im/index.html">http://zh.mweb.im/index.html</a></p>
+
+<p>本工作室網站也是基於 MWeb 製作，同時間，工作室推出了 MWeb 定制 CMS 服務。如果你們也想和我工作室一樣有一個靚靚網站，為什麼不先了解更多呢？<br/>
+<strong>MWEB ＋ 自定義模板 = 個人或企業網站</strong>：<a href="http://5mlstudio.com/MWebPageCustomize.html">http://5mlstudio.com/MWebPageCustomize.html</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[专业咨询业务]]></title>
+    <link href="http://www.5mlstudio.com/ServiceItem-Consultation.html"/>
+    <updated>2016-12-24T01:10:09+08:00</updated>
+    <id>http://www.5mlstudio.com/ServiceItem-Consultation.html</id>
+    <content type="html"><![CDATA[
+<h5 id="toc_0">樣本工作室的咨詢業務</h5>
+
+<p>Qoli Wong，庫倪，是一位全棧設計師。在 IT 行業有五年經驗，在 UI/UX 領域已經有 3 年工作經驗。先後在美樂時光、蓋婭科技、收付寶等公司工作。目前作為樣本工作室的創始人。</p>
+
+<h3 id="toc_1">Qoli 工作經歷</h3>
+
+<blockquote>
+<h6 id="toc_2">收付宝科技有限公司 Bankeys inc.（2015 年 9 月至今）</h6>
+
+<p>产品部 · 负责人<br/>
+负责公司产品部日常运作，为公司产品、设计业务负责。</p>
+
+<h6 id="toc_3">盖娅科技 Gamo Mobile inc.（2014 年 12 月 ~ 2015 年 4 月）</h6>
+
+<p>UI 用户界面设计师<br/>
+负责 Hybrid App 的前端开发工作、App 以及 Web 设计工作、以设计师角色参与产品讨论。</p>
+
+<h6 id="toc_4">美乐时光 Meile inc. （2013 年 12 月 ~ 2014 年 12 月）</h6>
+
+<p>PM 产品合伙人<br/>
+出任产品合伙人，负责美乐时光、美乐网的产品、设计；落实公司战术发展，提供战略建议。</p>
+</blockquote>
+
+<h3 id="toc_5">業務介紹</h3>
+
+<p>客戶可以為 IT 產品或商業產品提出各種各樣的問題。<br/>
+樣本工作室旗下有商業咨詢師、十年產品經理以及全棧設計師來回答客戶的問題。</p>
+
+<h3 id="toc_6">業務收費</h3>
+
+<p>單次咨詢 ¥500.00 元起。每次資訊時間約 2 小時。</p>
+
+<hr/>
+
+<h3 id="toc_7">預約</h3>
+
+<p>請通過頁面右下角預約登記即可。收到工單將會盡快給予答復。<br/>
+目前，面對面咨詢服務僅限北京提供。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[新作．GetHello.im]]></title>
+    <link href="http://www.5mlstudio.com/14825096955381.html"/>
+    <updated>2016-12-24T00:14:55+08:00</updated>
+    <id>http://www.5mlstudio.com/14825096955381.html</id>
+    <content type="html"><![CDATA[
+<p>作者：庫倪<br/>
+链接：<a href="https://zhuanlan.zhihu.com/p/21607104">https://zhuanlan.zhihu.com/p/21607104</a><br/>
+来源：知乎<br/>
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+
+<p>這是一個幫 Zakk 製作的形象。</p>
+
+<p>果然就是這些自由的事情做起來爽。</p>
+
+<p>View on Dribbble: <a href="https://link.zhihu.com/?target=https%3A//dribbble.com/shots/2836750-Get-Hello-iOS-icon">https://dribbble.com/shots/2836750-Get-Hello-iOS-icon</a></p>
+
+<p><img src="media/14825096955381/b17fb0136d91424f4130a0fd4323403d_b.jpg" alt=""/></p>
+
+<h2 id="toc_0">設計歷程</h2>
+
+<p>首先，要介紹一下，Get Hello 是什麼東西。</p>
+
+<p>它是一個 IM 機器人工具，面向商務出行的人士。可以用 IM 來訂機票、訂酒店。</p>
+
+<p><strong>設計版本 1</strong></p>
+
+<p><img src="media/14825096955381/93f3849c8ee4d145c718164b1b206a3b_b.png" alt=""/><br/>
+在第一個靈感設計版本中，我只是確定了核心色調應該是「藍色」後面有一個小地圖。</p>
+
+<p><strong>設計版本 2</strong></p>
+
+<p><img src="media/14825096955381/9e77508af4b6a809164e7ecf161ff4ae_b.png" alt=""/></p>
+
+<p>在第二個設計版本中，我已近構想好了，需要 HELLO 作為穿梭立在圖片中，有黃色的山、小小綠色的樹、金色的太陽作為搭配物品。</p>
+
+<p><strong>設計版本 3</strong></p>
+
+<p><img src="media/14825096955381/cd7730170d59bf6e56af602e43e18625_b.jpg" alt=""/><br/>
+這個已經很接近定案了。</p>
+
+<h2 id="toc_1">圖標版本歷程</h2>
+
+<p>接著，我就要需要輸出製作圖標了。</p>
+
+<p><img src="media/14825096955381/0534db809d4073cb0b8a71500daa25db_b.png" alt=""/></p>
+
+<p>從圖片中，我們可以看到。</p>
+
+<ul>
+<li><p>版本 1：圖片太小哦，根本看不清楚。</p></li>
+<li><p>版本 2：我把飛機放大了。但是覺得「Get Hello」在圖片底部很礙事，而且，iOS App 的標題和 Get Hello 重合了，我認為沒有保留的必要了。</p></li>
+<li><p>版本 3：我把「Get Hello」移除了。藍色區域修正為圓形，以減少底部白色所帶來的問題影響。同時間，飛機的尾流有點飛出藍色區域，起動到一個完全凸起來的效果。</p></li>
+</ul>
+
+<h2 id="toc_2">設計插曲</h2>
+
+<p><strong>小飛機</strong></p>
+
+<p><img src="media/14825096955381/253c11cafaa0d5e0886710d75d0d175b_b.png" alt=""/></p>
+
+<p>在這個圖片中，我們最核心的形象物「小飛機」是使用 IIIustrator 繪製的。因為繪製開放圖形在 Photoshop 實在不方便。</p>
+
+<p><strong>圓形版本</strong></p>
+
+<p><img src="media/14825096955381/14825161138670.png" alt=""/></p>
+
+<p>在大部份的 IM 軟件中，往往通信錄的頭像是圓形的啦。但是，在圓形版本中，Get Hello 被保留下來，這樣做的原因是我希望可以強化品牌形象。</p>
+
+<h2 id="toc_3">設計定案</h2>
+
+<p><strong>iOS App 圖標：</strong></p>
+
+<p><img src="media/14825096955381/5a1f610fafd90dd11e7b9f7c0d802738_b.jpg" alt=""/></p>
+
+<p><strong>聯絡人頭像：</strong></p>
+
+<p><img src="media/14825096955381/11f7772b59e5de8a1525c03dc0b36310_b.jpg" alt=""/></p>
+
+<p><strong>網頁使用配圖：</strong></p>
+
+<p><img src="media/14825096955381/395e83e804412748087f16ca6a7b1aa8_b.png" alt=""/></p>
+
+<h2 id="toc_4">結語</h2>
+
+<p>我很喜歡這個小飛機，看起來商務。但是粉藍色、小搭配又帶來了愉悅的環境感受。是一個自己覺得很耐看的設計哦。</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[讓聖光照耀啤酒]]></title>
+    <link href="http://www.5mlstudio.com/14825092973073.html"/>
+    <updated>2016-12-24T00:08:17+08:00</updated>
+    <id>http://www.5mlstudio.com/14825092973073.html</id>
+    <content type="html"><![CDATA[
+<p>作者：庫倪<br/>
+链接：<a href="https://zhuanlan.zhihu.com/p/23781697">https://zhuanlan.zhihu.com/p/23781697</a><br/>
+来源：知乎<br/>
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+
+<p>朋友和我說，做一個啤酒的設計。<br/>
+我正想做一些比較宗教的東西。<br/>
+因此。<br/>
+做了這個了。</p>
+
+<p><strong>Dribbble：</strong><a href="https://link.zhihu.com/?target=https%3A//dribbble.com/shots/3089368-A-Beer-OF-Cross">A-Beer-OF-Cross Dribbble</a></p>
+
+<p>請到 Dribbble 給我一個 <strong>Like</strong> ❤️ 吧。</p>
+
+<p><img src="media/14825092973073/v2-c2b846f7faf6225d313f5fc3e3ce71ee_b.png" alt=""/></p>
+
+<h5 id="toc_0">思維流程</h5>
+
+<ol>
+<li>尋找歐洲神話和歐洲藝術品。</li>
+<li>Google 查找「教堂玻璃」。</li>
+<li>確定參考對象，十字架玻璃。</li>
+</ol>
+
+<h5 id="toc_1">歐洲藝術品</h5>
+
+<h6 id="toc_2">Alexandre Cabanel, Pandora</h6>
+
+<p><img src="media/14825092973073/v2-0a985b06490a4565b333a7aaef8200bc_b.jpg" alt=""/></p>
+
+<p>為什麼會使用 Alexandre Cabanel 呢？全因為顧爺而已。</p>
+
+<p>因為進行啤酒設計，我第一時間想到是歐洲那些美輪美奐的女生油畫。就馬上想起，顧爺。</p>
+
+<p><img src="media/14825092973073/v2-fcc8aabf9bfcb3d3956dfde1d39156d6_b.jpg" alt=""/></p>
+
+<p>可惜這個圖片進行設計化之後缺少了原始的美感，故之轉換設計方向。</p>
+
+<h5 id="toc_3">教堂玻璃</h5>
+
+<p>教堂的玻璃，也是最偉大的藝術品之一。</p>
+
+<p>當日照玻璃時候，美輪美奐的光線讓人好喜歡哦。</p>
+
+<p>所以，我就 Google 找到了參考圖。</p>
+
+<p><img src="media/14825092973073/v2-8bda563a40d57583366ea1e82ad5fb67_b.png" alt=""/></p>
+
+<h5 id="toc_4">確定參考圖</h5>
+
+<p>參考圖就確定為這張十字架了。</p>
+
+<p>那麼就把他臨摹出來吧。</p>
+
+<p><img src="media/14825092973073/v2-ae80cc17c3a59e775c99cc4187d42dc3_b.png" alt=""/></p>
+
+<p>請記得哦，AI 也要有好好圖層和群組的習慣。否則找一個圖片找傻你了。</p>
+
+<h5 id="toc_5">完善設計</h5>
+
+<p>剩下的排版設計就留給 PS 吧。</p>
+
+<p><img src="media/14825092973073/v2-5e2581a920ca83d9e427ed0f512b349c_b.png" alt=""/></p>
+
+<p><strong>背後的圖案</strong></p>
+
+<p>後面的圖案我懶得一筆一筆繪製了，我是使用「彩繪玻璃」自動完成的。</p>
+
+<h5 id="toc_6">Dribbble</h5>
+
+<p>最後，POST 到 Dribbble 就完成咯。</p>
+
+<p><a href="https://link.zhihu.com/?target=https%3A//dribbble.com/shots/3089368-A-Beer-OF-Cross">A-Beer-OF-Cross Dribbble</a></p>
+
+<p>請到 Dribbble 給我一個 Like ❤️ 吧。</p>
+
+]]></content>
+  </entry>
+  
+</feed>
