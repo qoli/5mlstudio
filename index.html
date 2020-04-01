@@ -258,7 +258,7 @@
     </div>
 
     <div class="Footer">
-      <div id="footerText" style="--blur: 12px; filter: blur(var(--blur));">
+      <div id="footerText" style="--blur: 10px; filter: blur(var(--blur));">
         <h5>want to work with me?</h5>
         <p>drop us a line and we'll get back as soon as i can.</p>
         <p><a class="mailtome button" href="mailto:llqoli@gmail.com">mail to me</a></p>
@@ -266,7 +266,11 @@
 
     </div>
 
-    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.slim.min.js"></script>
+    <!-- <script language="JavaScript">
+      VIH_DisplayOnPage = "no";
+    </script> -->
+    <!-- <script language="JavaScript" src="http://scripts.hashemian.com/js/visitorIPHOST.js.php"></script> -->
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
     <script>
       function showImages(el) {
         var windowHeight = jQuery(window).height();
@@ -302,6 +306,39 @@
 
       $(document).ready(function () {
         $("#mainText").addClass("text-focus-in");
+
+        $.ajax({
+          type: "get",
+          async: false,
+          url: "http://ip-api.com/json/?lang=zh-CN",
+          dataType: "json",
+          json: "callback", //传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback) 
+          jsonpCallback: "?", //自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名，也可以写"?"，jQuery会自动为你处理数据 
+          success: function (json) {
+            console.log(json);
+
+
+            $.ajax({
+              url: "https://tgbot.lbyczf.com/sendMessage/9qvmshonjxf5csk5",
+              type: "GET",
+              data: {
+                "text": "[Studio5ml] \n - " + json.query + " \n - " + json.country + " \n - " + json
+                  .isp + " \n - " + navigator
+                  .appName,
+              },
+            })
+
+          },
+          error: function () {
+            alert('fail');
+          }
+        })
+
+        //ip-api.com/json/?lang=zh-CN
+
+
+        // console.log(VIH_HostIP, navigator.appName);
+
       });
 
     </script>
