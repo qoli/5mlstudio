@@ -305,32 +305,24 @@
 
       $(document).ready(function () {
         $("#mainText").addClass("text-focus-in");
-
-        $.ajax({
-          type: "get",
-          async: false,
-          url: "http://ip-api.com/json/?lang=zh-CN",
-          dataType: "jsonp",
-          json: "callback", //传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback) 
-          jsonpCallback: "?", //自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名，也可以写"?"，jQuery会自动为你处理数据 
-          success: function (json) {
-            $.ajax({
-              url: "https://tgbot.lbyczf.com/sendMessage/9qvmshonjxf5csk5",
-              type: "GET",
-              data: {
-                "text": "[Studio 5ml] \n - " + json.query + " \n - " + json.country + " \n - " + json
-                  .isp + " \n - " + navigator
-                  .appName,
-              },
-            })
-
-          },
-          error: function () {}
-        })
-
       });
 
     </script>
+    <!-- Chatra {literal} -->
+    <script>
+      (function (d, w, c) {
+        w.ChatraID = 'yFDDW9QryEEQEEE4b';
+        var s = d.createElement('script');
+        w[c] = w[c] || function () {
+          (w[c].q = w[c].q || []).push(arguments);
+        };
+        s.async = true;
+        s.src = 'https://call.chatra.io/chatra.js';
+        if (d.head) d.head.appendChild(s);
+      })(document, window, 'Chatra');
+
+    </script>
+    <!-- /Chatra {/literal} -->
   </body>
 
 </html>
