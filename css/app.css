@@ -185,6 +185,7 @@ body {
   border-radius: 12px;
   position: relative;
   margin-bottom: 50px;
+  transition: 0.3s;
 }
 
 .caseOne:hover {
