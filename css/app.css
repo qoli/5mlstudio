@@ -185,7 +185,8 @@ body {
   border-radius: 12px;
   position: relative;
   margin-bottom: 50px;
-  transition: 0.3s;
+  transition: 0.65s;
+  cursor: pointer;
 }
 
 .caseOne:hover {
