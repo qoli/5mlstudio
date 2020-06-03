@@ -185,8 +185,28 @@ body {
   border-radius: 12px;
   position: relative;
   margin-bottom: 50px;
-  transition: 0.65s;
+  transition: all 1.2s ease;
   cursor: pointer;
+}
+
+.caseViewButton {
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
+  font-size: 13px;
+  color: #FFFFFF;
+  padding: 2px 20px 0;
+  width: 168px;
+  line-height: 42px;
+  background: #B1E8F4;
+  border-radius: 25px;
+}
+
+.caseViewButton i {
+  position: absolute;
+  top: 1px;
+  right: 20px;
+  line-height: 42px;
 }
 
 .opacity {
@@ -195,6 +215,19 @@ body {
 
 .caseOne:hover {
   box-shadow: 0 32px 48px 0 rgba(0, 0, 0, 0.06);
+}
+
+.caseOne .caseViewButton {
+  opacity: 0;
+  transform: translate(40px, 0px);
+  transition: all 0.5s ease;
+  box-shadow: 0 4px 0px 0 rgba(19, 168, 200, 0.32);
+}
+
+.caseOne:hover .caseViewButton {
+  box-shadow: 0 4px 12px 0 rgba(19, 168, 200, 0.32);
+  transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .caseTitle {
