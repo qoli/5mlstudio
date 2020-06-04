@@ -27,22 +27,28 @@ export default class index extends React.Component<Layout> {
                 <div className="service-item">
                   <img
                     data-sal="slide-up"
-                    data-sal-delay="300"
+                    data-sal-delay="200"
                     data-sal-easing="ease"
                     src="img/service-01.png"
                     srcSet="img/service-01@2x.png 2x,img/service-01@3x.png 3x"
                     className="01 UI/UX Design"
                   />
                 </div>
-                <div className="service-item delayShow" data-delay={2}>
+                <div className="service-item delayShow">
                   <img
+                    data-sal="slide-up"
+                    data-sal-delay="400"
+                    data-sal-easing="ease"
                     src="img/service-02.png"
                     srcSet="img/service-02@2x.png 2x,img/service-02@3x.png 3x"
                     className="02 typography"
                   />
                 </div>
-                <div className="service-item delayShow" data-delay={3}>
+                <div className="service-item delayShow">
                   <img
+                    data-sal="slide-up"
+                    data-sal-delay="600"
+                    data-sal-easing="ease"
                     src="img/service-03.png"
                     srcSet="img/service-03@2x.png 2x,img/service-03@3x.png 3x"
                     className="03 branding"
@@ -53,22 +59,52 @@ export default class index extends React.Component<Layout> {
           </div>
           <div className="Skill">
             <dl>
-              <dt className="delayShow" data-delay={4}>
+              <dt
+                className="delayShow"
+                data-sal="slide-up"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+              >
                 interaction
               </dt>
-              <dd className="delayShow" data-delay={5}>
+              <dd
+                className="delayShow"
+                data-sal="slide-up"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+              >
                 user research / wire framing / prototyping / user testing
               </dd>
-              <dt className="delayShow" data-delay={6}>
+              <dt
+                className="delayShow"
+                data-sal="slide-up"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+              >
                 design
               </dt>
-              <dd className="delayShow" data-delay={7}>
+              <dd
+                className="delayShow"
+                data-sal="slide-up"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+              >
                 adobe suite / sketch / zeplin / lanhuapp
               </dd>
-              <dt className="delayShow" data-delay={8}>
+              <dt
+                className="delayShow"
+                data-sal="slide-up"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+              >
                 coding
               </dt>
-              <dd className="delayShow" data-delay={9}>
+              <dd
+                className="delayShow"
+                data-sal="slide-up"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+              >
                 node.js / vue / react / php / swift / go
               </dd>
             </dl>

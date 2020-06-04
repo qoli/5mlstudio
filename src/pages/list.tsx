@@ -9,6 +9,7 @@ interface caseType {
   name: string;
   type: [string];
   role: [string];
+  URL: string;
 }
 
 type CaseProps = {
@@ -17,23 +18,45 @@ type CaseProps = {
 };
 
 const Case = ({ caseData, key }: CaseProps) => {
-  const bgColor = {
+  const bgStyle = {
     backgroundColor: '#' + caseData.backgroundColor,
   };
+
+  var buttonStyle = {
+    backgroundColor: '#B1E8F4',
+    boxShadow: '0 4px 12px 0 rgba(19, 168, 200, 0.32)',
+  };
+
+  var buttonText = 'view work';
+
+  if (caseData.URL == null) {
+    buttonText = 'coming soon';
+    buttonStyle = {
+      backgroundColor: '#333',
+      boxShadow: '0 4px 12px 0 rgba(0, 0, 0, 0.12)',
+    };
+  }
   return (
-    <div className="caseOne" style={bgColor}>
-      <h6>Case Study</h6>
-      <div className="caseTitle">
+    <div>
+      <div className="caseOne" style={bgStyle}>
+        <h6>Case Study</h6>
+        <div className="caseTitle viewOnDesktop">
+          <h1>{caseData.name}</h1>
+          <p>{caseData.type}</p>
+        </div>
+        <p className="caseDescription viewOnDesktop">{caseData.role}</p>
+        <div className="caseImage">
+          <img src={'/case/' + caseData.coverImage + '.png'} alt={caseData.coverImage} />
+        </div>
+        <a className="caseViewButton" href={caseData.URL} style={buttonStyle}>
+          {buttonText} <i className="fad fa-long-arrow-right" />
+        </a>
+      </div>
+      <div className="caseMobileMeta viewOnMobie">
         <h1>{caseData.name}</h1>
         <p>{caseData.type}</p>
+        <p className="caseDescription">{caseData.role}</p>
       </div>
-      <p className="caseDescription">{caseData.role}</p>
-      <div className="caseImage">
-        <img src={'/case/' + caseData.coverImage + '.png'} alt={caseData.coverImage} />
-      </div>
-      <a className="caseViewButton" href="#">
-        view wrok <i className="fad fa-long-arrow-right" />
-      </a>
     </div>
   );
 };
@@ -50,6 +73,7 @@ const ListPage = () => {
           type
           coverImage
           backgroundColor
+          URL
         }
       }
     }

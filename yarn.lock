@@ -5976,7 +5976,7 @@ gatsby-plugin-react-helmet@^3.3.3:
   dependencies:
     "@babel/runtime" "^7.10.2"
 
-gatsby-plugin-scroll-reveal@0.0.7:
+gatsby-plugin-scroll-reveal@^0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-scroll-reveal/-/gatsby-plugin-scroll-reveal-0.0.7.tgz#5f0d1bcf65bf3c7b3d9d6b69dc4a8896129747ee"
   integrity sha512-G9slNyz7WNVMwBeGXnQ/FhJc61Q9THkvUIAlft4Uws4QJKn0OdvsDqUAUQkTGKU8hkHhaMAKiugL/8gRYuAZZA==

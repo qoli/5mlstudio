@@ -5,6 +5,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
+    `gatsby-plugin-scroll-reveal`,
     {
       resolve: 'gatsby-source-custom-api',
       options: {
@@ -16,6 +17,7 @@ module.exports = {
             coverImage: String
             backgroundColor: String
             name: String
+            URL: String
             type: [ String ]
             role: [ String ]
           `,
