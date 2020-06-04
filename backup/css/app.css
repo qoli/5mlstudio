@@ -1,0 +1,317 @@
+.delayShow {
+  opacity: 0;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex0 {
+  flex: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Circe Regular';
+  font-weight: normal;
+  color: #4d4e4e;
+  font-size: 16px;
+}
+
+.Navigation {
+  height: 67px;
+  width: 100%;
+  padding: 15px 25px;
+  display: flex;
+  line-height: 67px;
+}
+
+.Navigation .left,
+.Navigation .right {
+  flex: 1;
+}
+
+.Navigation .right {
+  text-align: right;
+}
+
+.Navigation .right a {
+  margin-left: 15px;
+}
+
+.Navigation .Logo {
+  font-size: 1.12em;
+  font-weight: 800;
+  font-family: 'Circe Bold';
+}
+
+.Navigation .Logo span {
+  padding: 3px 6px 1px;
+  color: #fff;
+  border-radius: 1px;
+  background-color: #b1e8f4;
+}
+
+.Navigation .Menu {
+  font-family: 'Circe Bold';
+}
+
+.mainAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.mainAction a {
+  font-family: 'Circe Bold';
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #000;
+  padding: 0 32px;
+  line-height: 42px;
+  border-radius: 21px;
+}
+
+.mainScreen {
+  height: calc(100vh - 67px - 52px - 32px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mainScreen p {
+  font-family: 'Circe Light';
+  width: 95vw;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.mainScreen p b {
+  font-family: 'Circe Bold';
+}
+
+.closetoButtom {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.closetoButtom i {
+  font-size: 20px;
+}
+
+.Service,
+.Skill {
+  padding: 100px 0;
+}
+
+.Service {
+  background-color: #fafafa;
+}
+
+.Service div img {
+  margin: 0 auto;
+}
+
+.Skill {
+  background-color: #fff;
+}
+
+.service-item {
+  padding: 50px 0;
+}
+
+.Skill dl {
+  margin: 0 auto;
+  width: 80vw;
+  text-align: left;
+}
+
+.Skill dl dt {
+  color: #bfbfbf;
+  font-family: 'Circe Bold';
+}
+
+.Footer {
+  font-family: 'Circe Extra Light';
+  text-align: center;
+  padding: 0;
+  background-color: #141414;
+  color: #fff;
+  line-height: 2.5em;
+}
+
+#footerText {
+  padding: 80px 0;
+}
+
+.Footer h5 {
+  font-size: 32px;
+}
+
+.Footer .mailtome {
+  margin-top: 20px;
+  padding: 14px 24px 12px;
+  border-radius: 1px;
+  background-color: #ffffff;
+  color: #141414;
+}
+
+
+/* Case Page -- START */
+
+.caseList {
+  margin-top: calc(100vh/5*2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 200px;
+}
+
+.caseOne {
+  background-color: #FFFCEB;
+  padding: 30px 80px;
+  border-radius: 12px;
+  position: relative;
+  margin-bottom: 50px;
+  transition: all 1.2s ease;
+  cursor: pointer;
+  width: 95vw;
+}
+
+.caseImage img {
+  /* position: absolute; */
+  bottom: 0;
+  right: 80px;
+  width: 244px;
+  height: 282px;
+  border-radius: 5px 5px 0 0;
+}
+
+.caseViewButton {
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
+  font-size: 13px;
+  color: #FFFFFF;
+  padding: 2px 20px 0;
+  width: 168px;
+  line-height: 42px;
+  background: #B1E8F4;
+  border-radius: 25px;
+}
+
+.caseViewButton i {
+  position: absolute;
+  top: 1px;
+  right: 20px;
+  line-height: 42px;
+}
+
+.opacity {
+  opacity: 0.15;
+}
+
+.caseOne:hover {
+  box-shadow: 0 32px 48px 0 rgba(0, 0, 0, 0.06);
+}
+
+.caseOne .caseViewButton {
+  opacity: 0;
+  transform: translate(40px, 0px);
+  transition: all 0.5s ease;
+  box-shadow: 0 4px 0px 0 rgba(19, 168, 200, 0.32);
+}
+
+.caseOne:hover .caseViewButton {
+  box-shadow: 0 4px 12px 0 rgba(19, 168, 200, 0.32);
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.caseTitle {
+  padding: 80px 0;
+}
+
+.caseTitle h1 {
+  font-weight: bolder;
+  font-size: 32px;
+  color: #141414;
+}
+
+.caseTitle p {
+  font-weight: 600;
+  font-size: 13px;
+  color: #4D4E4E;
+}
+
+.caseDescription {
+  font-weight: bolder;
+  font-size: 11px;
+  color: #999999;
+}
+
+.caseOne h6 {
+  font-family: 'Circe Bold';
+  font-size: 13px;
+  color: #999999;
+}
+
+/* Case Page -- END */
+
+/* Small (sm) */
+@media (min-width: 640px) {}
+
+/* Medium (md) */
+@media (min-width: 768px) {}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  .caseOne {
+    width: 720px;
+  }
+
+  .mainScreen p {
+    font-family: 'Circe Extra Light';
+    width: 60vw;
+    font-size: 24px;
+  }
+
+  .Service,
+  .Skill {
+    padding: 320px 0;
+  }
+
+  .Skill dl {
+    width: 60vw;
+  }
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  .mainScreen p {
+    font-family: 'Circe Extra Light';
+    width: 50vw;
+    font-size: 36px;
+  }
+
+  .Service .inside {
+    width: 1280px;
+    margin: 0 auto;
+  }
+
+  .Skill dl {
+    width: 50vw;
+  }
+}

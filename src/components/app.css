@@ -1,5 +1,5 @@
 .delayShow {
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .flex1 {
@@ -180,13 +180,23 @@ body {
 }
 
 .caseOne {
-  background-color: #FFFCEB;
+  background-color: #f3f3f3;
   padding: 30px 80px;
   border-radius: 12px;
   position: relative;
   margin-bottom: 50px;
   transition: all 1.2s ease;
   cursor: pointer;
+  width: 95vw;
+}
+
+.caseImage img {
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+  width: 244px;
+  height: 282px;
+  border-radius: 5px 5px 0 0;
 }
 
 .caseViewButton {
@@ -252,15 +262,6 @@ body {
   color: #999999;
 }
 
-.caseImage img {
-  position: absolute;
-  bottom: 0;
-  right: 80px;
-  width: 244px;
-  height: 282px;
-  border-radius: 5px 5px 0 0;
-}
-
 .caseOne h6 {
   font-family: 'Circe Bold';
   font-size: 13px;
@@ -270,15 +271,17 @@ body {
 /* Case Page -- END */
 
 /* Small (sm) */
-@media (min-width: 640px) {
-  /* ... */
-}
+@media (min-width: 640px) {}
 
 /* Medium (md) */
 @media (min-width: 768px) {}
 
 /* Large (lg) */
 @media (min-width: 1024px) {
+  .caseOne {
+    width: 720px;
+  }
+
   .mainScreen p {
     font-family: 'Circe Extra Light';
     width: 60vw;
