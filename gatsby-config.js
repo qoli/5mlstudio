@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/5mlstudio',
   siteMetadata: {
     title: `Studio 5ml - UI/UX Designer`,
   },
