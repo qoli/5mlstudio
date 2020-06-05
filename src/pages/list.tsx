@@ -18,6 +18,8 @@ type CaseProps = {
 };
 
 const Case = ({ caseData, key }: CaseProps) => {
+  console.log(caseData);
+
   const bgStyle = {
     backgroundColor: '#' + caseData.backgroundColor,
   };
@@ -64,16 +66,17 @@ const Case = ({ caseData, key }: CaseProps) => {
 const ListPage = () => {
   const data = useStaticQuery(graphql`
     query ListQuery {
-      allCase {
-        totalCount
-        nodes {
-          id
-          name
-          role
-          type
-          coverImage
-          backgroundColor
-          URL
+      allPosts {
+        edges {
+          node {
+            id
+            name
+            role
+            type
+            coverImage
+            backgroundColor
+            URL
+          }
         }
       }
     }
@@ -82,8 +85,8 @@ const ListPage = () => {
   return (
     <Layout pageTitle="all case">
       <div className="caseList container mx-auto">
-        {data.allCase.nodes.map((item: caseType) => (
-          <Case caseData={item} key={item.id} />
+        {data.allPosts.edges.map((item: any) => (
+          <Case caseData={item.node} key={item.id} />
         ))}
       </div>
     </Layout>

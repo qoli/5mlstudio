@@ -7,21 +7,15 @@ module.exports = {
     `gatsby-plugin-typescript`,
     `gatsby-plugin-scroll-reveal`,
     {
-      resolve: 'gatsby-source-custom-api',
+      resolve: `gatsby-source-notion-database`,
       options: {
-        url: 'https://notion-api.splitbee.io/v1/table/1b9b6c284ab14a858fd8ab36585234c0',
-        rootKey: 'case',
-        schemas: {
-          case: `
-            id: String
-            coverImage: String
-            backgroundColor: String
-            name: String
-            URL: String
-            type: [ String ]
-            role: [ String ]
-          `,
-        },
+        sourceConfig: [
+          {
+            name: 'posts',
+            table: 'https://www.notion.so/5ml/1b9b6c284ab14a858fd8ab36585234c0',
+            cacheType: 'html',
+          },
+        ],
       },
     },
   ],
