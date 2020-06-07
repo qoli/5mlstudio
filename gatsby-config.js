@@ -6,16 +6,23 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-scroll-reveal`,
+    `gatsby-plugin-sass`,
     {
-      resolve: `gatsby-source-notion-database`,
+      resolve: 'gatsby-source-custom-api',
       options: {
-        sourceConfig: [
-          {
-            name: 'posts',
-            table: 'https://www.notion.so/5ml/1b9b6c284ab14a858fd8ab36585234c0',
-            cacheType: 'html',
-          },
-        ],
+        url: 'https://notion-api.splitbee.io/v1/table/1b9b6c284ab14a858fd8ab36585234c0',
+        rootKey: 'case',
+        schemas: {
+          case: `
+            id: String
+            coverImage: String
+            backgroundColor: String
+            name: String
+            URL: String
+            type: [ String ]
+            role: [ String ]
+          `,
+        },
       },
     },
   ],

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Link from 'gatsby-link';
 import Layout from '../components/layout';
 import { useStaticQuery, graphql } from 'gatsby';
 
@@ -53,6 +54,10 @@ const Case = ({ caseData, key }: CaseProps) => {
         <a className="caseViewButton" href={caseData.URL} style={buttonStyle}>
           {buttonText} <i className="fad fa-long-arrow-right" />
         </a>
+
+        {/* <Link to="/page/" className="caseViewButton" style={buttonStyle}>
+          {buttonText} <i className="fad fa-long-arrow-right" />
+        </Link> */}
       </div>
       <div className="caseMobileMeta viewOnMobie">
         <h1>{caseData.name}</h1>
@@ -66,7 +71,7 @@ const Case = ({ caseData, key }: CaseProps) => {
 const ListPage = () => {
   const data = useStaticQuery(graphql`
     query ListQuery {
-      allPosts {
+      allCase {
         edges {
           node {
             id
@@ -85,8 +90,8 @@ const ListPage = () => {
   return (
     <Layout pageTitle="all case">
       <div className="caseList container mx-auto">
-        {data.allPosts.edges.map((item: any) => (
-          <Case caseData={item.node} key={item.id} />
+        {data.allCase.edges.map((item: any) => (
+          <Case caseData={item.node} key={item.node.id} />
         ))}
       </div>
     </Layout>

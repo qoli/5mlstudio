@@ -284,6 +284,20 @@ body {
 
 /* Case Page -- END */
 
+/* pageView */
+
+.pageView {
+  width: 608px !important;
+  margin: 5em auto;
+
+  img {
+    width: 608px;
+    max-width: 608px;
+  }
+}
+
+/* pageView */
+
 .viewOnDesktop {
   display: none;
 }

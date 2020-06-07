@@ -4,13 +4,41 @@ import { Helmet } from 'react-helmet';
 
 import './font-circe.css';
 import './animations.css';
-import './app.css';
+import './app.scss';
 
 export default class extends React.PureComponent<{ pageTitle: string }> {
   public render() {
     return (
       <div>
         <Helmet title="Studio 5ml - UI/UX Designer">
+          {/* --SEO-- */}
+          <meta
+            name="description"
+            content="i help my clients to build beautiful design on website or apps. my capabilities range from animation to web design, and follow a conversion-focused a design approach.​"
+          />
+          <meta name="keywords" content="UIUX, designer, iOS, wechat" />
+          <meta name="author" content="qoli wong" />
+
+          {/* FACEBOOK */}
+          <meta property="og:title" content="Studio 5ml - UI/UX Designer - qoli wong" />
+          <meta
+            property="og:description"
+            content="i help my clients to build beautiful design on website or apps. my capabilities range from animation to web design, and follow a conversion-focused a design approach."
+          />
+          <meta property="og:image" content="https://www.5mlstudio.com/thumbnail.jpg" />
+          <meta property="og:url" content="https://www.5mlstudio.com"></meta>
+          <meta property="og:site_name" content="Studio 5ml"></meta>
+
+          {/* Twitter */}
+          <meta name="twitter:title" content="Studio 5ml - UI/UX Designer - qoli wong " />
+          <meta
+            name="twitter:description"
+            content="i help my clients to build beautiful design on website or apps. my capabilities range from animation to web design, and follow a conversion-focused a design approach."
+          />
+          <meta name="twitter:image" content=" https://www.5mlstudio.com/thumbnail.jpg" />
+          <meta name="twitter:card" content="summary_large_image"></meta>
+
+          {/* --SEO-- */}
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <link href="https://cdn.bootcss.com/tailwindcss/1.2.0/base.min.css" rel="stylesheet" />
           <link
@@ -23,9 +51,6 @@ export default class extends React.PureComponent<{ pageTitle: string }> {
             integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH"
             crossorigin="anonymous"
           />
-          {/* <link rel="stylesheet" href="css/font-circe.css" />
-          <link rel="stylesheet" href="css/animations.css" />
-          <link rel="stylesheet" href="css/app.css" /> */}
         </Helmet>
         {/* Navigation */}
         <div className="Navigation">
