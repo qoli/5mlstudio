@@ -9,13 +9,18 @@ export default class index extends React.Component<Layout> {
       <Layout pageTitle="">
         <div>
           <div className="mainScreen">
-            <p id="mainText">
+            <p id="mainText" className="mb-6">
               i help my clients to build beautiful design on <b>website</b> or <b>apps</b>. my
               capabilities range from animation to web design, and follow a{' '}
               <b>conversion-focused</b> a design approach.​
             </p>
             <div className="mainAction">
-              <Link to="/list/">my work</Link>
+              <a className="button-outline mb-6" href="/studio-5ml.pdf">
+                download resume
+              </a>
+              <Link className="button" to="/list/">
+                my work
+              </Link>
             </div>
           </div>
           <div className="closetoButtom">

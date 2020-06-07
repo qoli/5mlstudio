@@ -58,15 +58,25 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 50px;
 }
 
-.mainAction a {
+.button {
   font-family: 'Circe Bold';
   font-size: 15px;
   color: #FFFFFF;
   text-align: center;
   background-color: #000;
+  padding: 0 32px;
+  line-height: 42px;
+  border-radius: 21px;
+}
+
+.button-outline {
+  font-family: 'Circe Bold';
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+  border: 1px #000 solid;
   padding: 0 32px;
   line-height: 42px;
   border-radius: 21px;
