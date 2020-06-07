@@ -24,7 +24,7 @@ https://www.gatsbyjs.org/packages/gatsby-source-custom-api/
 
 ![notion view](./readme_assets/screen_01.png)
 
-接著，使用基於「https://notion-api.splitbee.io/v1/table/1b9b6c284ab14a858fd8ab36585234c0」的 api 獲得 notion 表格數據。
+接著，使用基於「 https://notion-api.splitbee.io/v1/table/1b9b6c284ab14a858fd8ab36585234c0 」的 api 獲得 notion 表格數據。
 
 此 api 可參考此項目 https://github.com/splitbee/notion-api-worker
 
