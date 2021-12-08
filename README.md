@@ -4,6 +4,20 @@
 
 
 
+
+
+## deploy
+
+```
+npm i
+npm i -g gatsby-cli
+npm run deploy
+```
+
+
+
+
+
 ## Gatsby
 
 這個「靜態站」採用了 Gatsby 開發。
