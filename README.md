@@ -8,7 +8,12 @@
 
 ## deploy
 
+需要使用 node 14 操作。
+
+
 ```
+nvm install 14.18.2
+nvm use 14.18.2
 npm i
 npm i -g gatsby-cli
 npm run deploy
